@@ -1,0 +1,170 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+[data-theme='high-contrast'] {
+  --color-high-contrast-gray-blue-0: #ffffff; /** 고대비 그레이 블루 0 */
+  --color-high-contrast-gray-blue-5: #f4f5f6; /** 고대비 그레이 블루 5 */
+  --color-high-contrast-gray-blue-10: #e6e8ea; /** 고대비 그레이 블루 10 */
+  --color-high-contrast-gray-blue-20: #cdd1d5; /** 고대비 그레이 블루 20 */
+  --color-high-contrast-gray-blue-30: #b1b8be; /** 고대비 그레이 블루 30 */
+  --color-high-contrast-gray-blue-40: #8a949e; /** 고대비 그레이 블루 40 */
+  --color-high-contrast-gray-blue-50: #6d7882; /** 고대비 그레이 블루 50 */
+  --color-high-contrast-gray-blue-60: #58616a; /** 고대비 그레이 블루 60 */
+  --color-high-contrast-gray-blue-70: #464c53; /** 고대비 그레이 블루 70 */
+  --color-high-contrast-gray-blue-80: #33363d; /** 고대비 그레이 블루 80 */
+  --color-high-contrast-gray-blue-90: #1e2124; /** 고대비 그레이 블루 90 */
+  --color-high-contrast-gray-blue-95: #131416; /** 고대비 그레이 블루 95 */
+  --color-high-contrast-gray-blue-100: #000000; /** 고대비 그레이 블루 100 */
+  --color-high-contrast-gray-black-neutral-color-100: #ffffff; /** 고대비 gray-black neutral-color-100 */
+  --color-high-contrast-gray-black-neutral-color-99: #f7f7f7; /** 고대비 gray-black neutral-color-99 */
+  --color-high-contrast-gray-black-neutral-color-95: #dcdcdc; /** 고대비 gray-black neutral-color-95 */
+  --color-high-contrast-gray-black-neutral-color-90: #c4c4c4; /** 고대비 gray-black neutral-color-90 */
+  --color-high-contrast-gray-black-neutral-color-80: #b0b0b0; /** 고대비 gray-black neutral-color-80 */
+  --color-high-contrast-gray-black-neutral-color-70: #9b9b9b; /** 고대비 gray-black neutral-color-70 */
+  --color-high-contrast-gray-black-neutral-color-60: #8a8a8a; /** 고대비 gray-black neutral-color-60 */
+  --color-high-contrast-gray-black-neutral-color-50: #737373; /** 고대비 gray-black neutral-color-50 */
+  --color-high-contrast-gray-black-neutral-color-40: #5c5c5c; /** 고대비 gray-black neutral-color-40 */
+  --color-high-contrast-gray-black-neutral-color-30: #474747; /** 고대비 gray-black neutral-color-30 */
+  --color-high-contrast-gray-black-neutral-color-22: #303030; /** 고대비 gray-black neutral-color-22 */
+  --color-high-contrast-gray-black-neutral-color-20: #2a2a2a; /** 고대비 gray-black neutral-color-20 */
+  --color-high-contrast-gray-black-neutral-color-15: #1c1c1c; /** 고대비 gray-black neutral-color-15 */
+  --color-high-contrast-gray-black-neutral-color-10: #171717; /** 고대비 gray-black neutral-color-10 */
+  --color-high-contrast-gray-black-neutral-color-5: #0f0f0f; /** 고대비 gray-black neutral-color-5 */
+  --color-high-contrast-gray-black-neutral-color-0: #000000; /** 고대비 gray-black neutral-color-0 */
+  --color-high-contrast-primary-5: #ecf2fe; /** 고대비 프라이머리 5 */
+  --color-high-contrast-primary-10: #d8e5fd; /** 고대비 프라이머리 10 */
+  --color-high-contrast-primary-20: #b1cefb; /** 고대비 프라이머리 20 */
+  --color-high-contrast-primary-30: #86aff9; /** 고대비 프라이머리 30 */
+  --color-high-contrast-primary-40: #4c87f6; /** 고대비 프라이머리 40 */
+  --color-high-contrast-primary-50: #256ef4; /** 고대비 프라이머리 50 */
+  --color-high-contrast-primary-60: #0b50d0; /** 고대비 프라이머리 60 */
+  --color-high-contrast-primary-70: #083891; /** 고대비 프라이머리 70 */
+  --color-high-contrast-primary-80: #052561; /** 고대비 프라이머리 80 */
+  --color-high-contrast-primary-90: #03163a; /** 고대비 프라이머리 90 */
+  --color-high-contrast-primary-95: #020f27; /** 고대비 프라이머리 95 */
+  --color-high-contrast-secondary-5: #eef2f7; /** 고대비 세컨더리 5 */
+  --color-high-contrast-secondary-10: #d6e0eb; /** 고대비 세컨더리 10 */
+  --color-high-contrast-secondary-20: #bacbde; /** 고대비 세컨더리 20 */
+  --color-high-contrast-secondary-30: #90b0d5; /** 고대비 세컨더리 30 */
+  --color-high-contrast-secondary-40: #6b96c7; /** 고대비 세컨더리 40 */
+  --color-high-contrast-secondary-50: #346fb2; /** 고대비 세컨더리 50 */
+  --color-high-contrast-secondary-60: #1c589c; /** 고대비 세컨더리 60 */
+  --color-high-contrast-secondary-70: #063a74; /** 고대비 세컨더리 70 */
+  --color-high-contrast-secondary-80: #052b57; /** 고대비 세컨더리 80 */
+  --color-high-contrast-secondary-90: #031f3f; /** 고대비 세컨더리 90 */
+  --color-high-contrast-secondary-95: #02162c; /** 고대비 세컨더리 95 */
+  --color-high-contrast-point-5: #fbeff0; /** 고대비 point 5 */
+  --color-high-contrast-point-10: #f5d6d9; /** 고대비 point 10 */
+  --color-high-contrast-point-20: #ebadb2; /** 고대비 point 20 */
+  --color-high-contrast-point-30: #e0858c; /** 고대비 point 30 */
+  --color-high-contrast-point-40: #d65c66; /** 고대비 point 40 */
+  --color-high-contrast-point-50: #d63d4a; /** 고대비 point 50 */
+  --color-high-contrast-point-60: #ab2b36; /** 고대비 point 60 */
+  --color-high-contrast-point-70: #7a1f26; /** 고대비 point 70 */
+  --color-high-contrast-point-80: #521419; /** 고대비 point 80 */
+  --color-high-contrast-point-90: #310c0f; /** 고대비 point 90 */
+  --color-high-contrast-point-95: #21080a; /** 고대비 point 95 */
+  --color-high-contrast-danger-5: #fdefec; /** surface */
+  --color-high-contrast-danger-10: #fcdfd9; /** border */
+  --color-high-contrast-danger-20: #f7afa1; /** 고대비 위험 20 */
+  --color-high-contrast-danger-30: #f48771; /** 고대비 위험 30 */
+  --color-high-contrast-danger-40: #f05f42; /** 고대비 위험 40 */
+  --color-high-contrast-danger-50: #de3412; /** base */
+  --color-high-contrast-danger-60: #bd2c0f; /** text */
+  --color-high-contrast-danger-70: #8a240f; /** 고대비 위험 70 */
+  --color-high-contrast-danger-80: #5c180a; /** 고대비 위험 80 */
+  --color-high-contrast-danger-90: #390d05; /** 고대비 위험 90 */
+  --color-high-contrast-danger-95: #260903; /** 고대비 위험 95 */
+  --color-high-contrast-warning-5: #fff3db; /** surface */
+  --color-high-contrast-warning-10: #ffe0a3; /** border */
+  --color-high-contrast-warning-20: #ffc95c; /** 고대비 경고 20 */
+  --color-high-contrast-warning-30: #ffb114; /** 고대비 경고 30 */
+  --color-high-contrast-warning-40: #c78500; /** 고대비 경고 40 */
+  --color-high-contrast-warning-50: #9e6a00; /** base */
+  --color-high-contrast-warning-60: #8a5c00; /** text */
+  --color-high-contrast-warning-70: #614100; /** 고대비 경고 70 */
+  --color-high-contrast-warning-80: #422c00; /** 고대비 경고 80 */
+  --color-high-contrast-warning-90: #2e1f00; /** 고대비 경고 90 */
+  --color-high-contrast-warning-95: #241800; /** 고대비 경고 95 */
+  --color-high-contrast-information-5: #e7f4fe; /** surface */
+  --color-high-contrast-information-10: #d3ebfd; /** border */
+  --color-high-contrast-information-20: #9ed2fa; /** 고대비 information 20 */
+  --color-high-contrast-information-30: #5fb5f7; /** 고대비 information 30 */
+  --color-high-contrast-information-40: #2098f3; /** 고대비 information 40 */
+  --color-high-contrast-information-50: #0b78cb; /** base */
+  --color-high-contrast-information-60: #096ab3; /** text */
+  --color-high-contrast-information-70: #085691; /** 고대비 information 70 */
+  --color-high-contrast-information-80: #053961; /** 고대비 information 80 */
+  --color-high-contrast-information-90: #03253f; /** 고대비 information 90 */
+  --color-high-contrast-information-95: #021a2c; /** 고대비 information 95 */
+  --color-high-contrast-success-5: #eaf6ec; /** surface */
+  --color-high-contrast-success-10: #d8eedd; /** border */
+  --color-high-contrast-success-20: #a9dab4; /** 고대비 성공 20 */
+  --color-high-contrast-success-30: #7ec88e; /** 고대비 성공 30 */
+  --color-high-contrast-success-40: #3fa654; /** 고대비 성공 40 */
+  --color-high-contrast-success-50: #228738; /** base */
+  --color-high-contrast-success-60: #267337; /** text */
+  --color-high-contrast-success-70: #285d33; /** 고대비 성공 70 */
+  --color-high-contrast-success-80: #1f4727; /** 고대비 성공 80 */
+  --color-high-contrast-success-90: #122b18; /** 고대비 성공 90 */
+  --color-high-contrast-success-95: #0e2012; /** 고대비 성공 95 */
+  --color-high-contrast-alpha-black100: #000000; /** 고대비 알파 black100 */
+  --color-high-contrast-alpha-black75: rgba(0, 0, 0, 0.75); /** 고대비 알파 black75 */
+  --color-high-contrast-alpha-black50: rgba(0, 0, 0, 0.5); /** 고대비 알파 black50 */
+  --color-high-contrast-alpha-black25: rgba(0, 0, 0, 0.25); /** 고대비 알파 black25 */
+  --color-high-contrast-alpha-black10: rgba(0, 0, 0, 0.1); /** 고대비 알파 black10 */
+  --color-high-contrast-alpha-black0: rgba(0, 0, 0, 0); /** 고대비 알파 black0 */
+  --color-high-contrast-alpha-white100: #ffffff; /** 고대비 알파 white100 */
+  --color-high-contrast-alpha-white75: rgba(255, 255, 255, 0.75); /** 고대비 알파 white75 */
+  --color-high-contrast-alpha-white50: rgba(255, 255, 255, 0.5); /** 고대비 알파 white50 */
+  --color-high-contrast-alpha-white25: rgba(255, 255, 255, 0.25); /** 고대비 알파 white25 */
+  --color-high-contrast-alpha-white10: rgba(255, 255, 255, 0.1); /** 고대비 알파 white10 */
+  --color-high-contrast-alpha-white0: rgba(255, 255, 255, 0); /** 고대비 알파 white0 */
+  --color-high-contrast-graphic-10: #e5ecf9; /** 고대비 graphic 10 */
+  --color-high-contrast-graphic-30: #98acc5; /** 고대비 graphic 30 */
+  --color-high-contrast-graphic-50: #61758f; /** 고대비 graphic 50 */
+  --color-high-contrast-graphic-70: #39506c; /** 고대비 graphic 70 */
+  --color-high-contrast-graphic-90: #223a58; /** 고대비 graphic 90 */
+  --color-high-contrast-gray-basic-black: #000000; /** 고대비 그레이 기본 black */
+  --color-high-contrast-gray-basic-gray-1: #151515; /** 고대비 그레이 기본 gray-1 */
+  --color-high-contrast-gray-basic-gray-2: #333333; /** 고대비 그레이 기본 gray-2 */
+  --color-high-contrast-gray-basic-gray-3: #555555; /** 고대비 그레이 기본 gray-3 */
+  --color-high-contrast-gray-basic-gray-4: #717171; /** 고대비 그레이 기본 gray-4 */
+  --color-high-contrast-gray-basic-gray-5: #8e8e8e; /** 고대비 그레이 기본 gray-5 */
+  --color-high-contrast-gray-basic-gray-6: #a3a3a3; /** 고대비 그레이 기본 gray-6 */
+  --color-high-contrast-gray-basic-gray-7: #d9d9d9; /** 고대비 그레이 기본 gray-7 */
+  --color-high-contrast-gray-basic-gray-8: #e4e4e4; /** 고대비 그레이 기본 gray-8 */
+  --color-high-contrast-gray-basic-gray-9: #f0f0f0; /** 고대비 그레이 기본 gray-9 */
+  --color-high-contrast-gray-basic-gray-10: #f8f8f8; /** 고대비 그레이 기본 gray-10 */
+  --color-high-contrast-gray-basic-white: #ffffff; /** 고대비 그레이 기본 white */
+  --color-high-contrast-line-line-color01: #4a4a4a; /** 고대비 line line-color01 */
+  --color-high-contrast-line-line-color02: #848485; /** 고대비 line line-color02 */
+  --color-high-contrast-line-line-color03: #565656; /** 고대비 line line-color03 */
+  --color-high-contrast-line-line-color04: #878787; /** 고대비 line line-color04 */
+  --color-high-contrast-line-line-color05: #45484b; /** 고대비 line line-color05 */
+  --color-high-contrast-line-line-color06: #666666; /** 고대비 line line-color06 */
+  --color-high-contrast-line-line-color07: #2c3033; /** 고대비 line line-color07 */
+  --color-high-contrast-sub-color01-5: #f7f7f7; /** 고대비 sub-color01 5 */
+  --color-high-contrast-sub-color01-10: #ededed; /** 고대비 sub-color01 10 */
+  --color-high-contrast-sub-color01-20: #d9d8d8; /** 고대비 sub-color01 20 */
+  --color-high-contrast-sub-color01-30: #c2c1c1; /** 고대비 sub-color01 30 */
+  --color-high-contrast-sub-color01-40: #aeacac; /** 고대비 sub-color01 40 */
+  --color-high-contrast-sub-color01-50: #8e8b8b; /** 고대비 sub-color01 50 */
+  --color-high-contrast-sub-color01-60: #595757; /** 고대비 sub-color01 60 */
+  --color-high-contrast-sub-color01-70: #3e3c3c; /** 고대비 sub-color01 70 */
+  --color-high-contrast-sub-color01-80: #2c2b2b; /** 고대비 sub-color01 80 */
+  --color-high-contrast-sub-color01-90: #1c1c1c; /** 고대비 sub-color01 90 */
+  --color-high-contrast-sub-color01-95: #121212; /** 고대비 sub-color01 95 */
+  --color-high-contrast-sub-color02-5: #f7f7f8; /** 고대비 sub-color02 5 */
+  --color-high-contrast-sub-color02-10: #eaedf0; /** 고대비 sub-color02 10 */
+  --color-high-contrast-sub-color02-20: #d0d7e1; /** 고대비 sub-color02 20 */
+  --color-high-contrast-sub-color02-30: #b1bfd2; /** 고대비 sub-color02 30 */
+  --color-high-contrast-sub-color02-40: #95a9c6; /** 고대비 sub-color02 40 */
+  --color-high-contrast-sub-color02-50: #6685b2; /** 고대비 sub-color02 50 */
+  --color-high-contrast-sub-color02-60: #4b6790; /** 고대비 sub-color02 60 */
+  --color-high-contrast-sub-color02-70: #3a4d6a; /** 고대비 sub-color02 70 */
+  --color-high-contrast-sub-color02-80: #293547; /** 고대비 sub-color02 80 */
+  --color-high-contrast-sub-color02-90: #1b222c; /** 고대비 sub-color02 90 */
+  --color-high-contrast-sub-color02-95: #12161c; /** 고대비 sub-color02 95 */
+}

@@ -1,0 +1,15 @@
+/* semantic-light.css */
+:root, [data-theme='light'] {
+  --color-gray-10: var(--color-light-gray-blue-10);
+  --color-key-primary: var(--color-light-primary-60);
+  --color-background-primary: var(--color-light-gray-blue-00);
+  --color-text-primary: var(--color-light-gray-black-90);
+  /* ... 205개 시맨틱 변수 */
+}
+
+/* semantic-dark.css */
+[data-theme='dark'] {
+  --color-gray-10: var(--color-high-contrast-gray-blue-10);
+  --color-key-primary: var(--color-high-contrast-primary-60);
+  /* ... 205개 (다크모드 값으로 오버라이드) */
+}

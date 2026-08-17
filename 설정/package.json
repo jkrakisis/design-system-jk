@@ -1,0 +1,16 @@
+{
+  "name": "design-tokens",
+  "version": "1.0.0",
+  "description": "Design System Tokens - W3C DTCG format",
+  "scripts": {
+    "build": "node build-css.js && node build-platforms.js && node build-device-tokens.js",
+    "build:css": "node build-css.js",
+    "build:scss": "node build-platforms.js scss",
+    "build:ios": "node build-platforms.js ios",
+    "build:android": "node build-platforms.js android",
+    "clean": "rm -rf build/"
+  },
+  "devDependencies": {
+    "style-dictionary": "^4.0.0"
+  }
+}

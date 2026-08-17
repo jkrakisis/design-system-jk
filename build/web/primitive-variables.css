@@ -1,0 +1,100 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --font-weight-font-weight-900: 900; /** 폰트 굵기 900 (Black) */
+  --font-weight-font-weight-800: 800; /** 폰트 굵기 800 (ExtraBold) */
+  --font-weight-font-weight-400: 400; /** 폰트 굵기 400 (Regular) */
+  --font-weight-font-weight-700: 700; /** 폰트 굵기 700 (Bold) */
+  --font-weight-font-weight-600: 600; /** 폰트 굵기 600 (SemiBold) */
+  --font-weight-font-weight-500: 500; /** 폰트 굵기 500 (Medium) */
+  --font-weight-font-weight-300: 300; /** 폰트 굵기 300 (Light) */
+  --line-height-line-height-36: 36; /** 라인 높이 36px */
+  --line-height-line-height-34: 34; /** 라인 높이 34px */
+  --line-height-line-height-32: 32; /** 라인 높이 32px */
+  --line-height-line-height-30: 30; /** 라인 높이 30px */
+  --line-height-line-height-22: 22; /** 라인 높이 22px */
+  --line-height-line-height-26: 26; /** 라인 높이 26px */
+  --line-height-line-height-28: 28; /** 라인 높이 28px */
+  --line-height-line-height-64: 64; /** 라인 높이 64px */
+  --line-height-line-height-24: 24; /** 라인 높이 24px */
+  --line-height-line-height-48: 48; /** 라인 높이 48px */
+  --line-height-line-height-56: 56; /** 라인 높이 56px */
+  --line-height-line-height-18: 18; /** 라인 높이 18px */
+  --line-height-line-height-38: 38; /** 라인 높이 38px */
+  --line-height-line-height-44: 44; /** 라인 높이 44px */
+  --line-height-line-height-20: 20; /** 라인 높이 20px */
+  --line-height-line-height-40: 40; /** 라인 높이 40px */
+  --line-height-line-height-42: 42; /** 라인 높이 42px */
+  --line-height-line-height-16: 16; /** 라인 높이 16px */
+  --letter-spacing-0: 0; /** 자간 letter-spacing/0 */
+  --letter-spacing-1: 1; /** 자간 letter-spacing/1 */
+  --letter-spacing-3: -0.8; /** 자간 letter-spacing/3 */
+  --letter-spacing-letter-spacing-t3: -0.4; /** 자간 t3 */
+  --letter-spacing-letter-spacing-t1: -0.4; /** 자간 t1 */
+  --letter-spacing-letter-spacing-h4: -0.4; /** 자간 h4 */
+  --letter-spacing-letter-spacing-l0: 0; /** 자간 l0 */
+  --letter-spacing-letter-spacing-b1: -0.5; /** 자간 b1 */
+  --letter-spacing-letter-spacing-h1: -0.4; /** 자간 h1 */
+  --letter-spacing-letter-spacing-t2: -0.4; /** 자간 t2 */
+  --letter-spacing-letter-spacing-b3: -0.5; /** 자간 b3 */
+  --letter-spacing-letter-spacing-t4: -0.4; /** 자간 t4 */
+  --letter-spacing-letter-spacing-h2: -0.4; /** 자간 h2 */
+  --letter-spacing-letter-spacing-d2: -0.4; /** 자간 d2 */
+  --letter-spacing-letter-spacing-c1: 0; /** 자간 c1 */
+  --letter-spacing-letter-spacing-b2: -0.5; /** 자간 b2 */
+  --letter-spacing-letter-spacing-d3: -0.4; /** 자간 d3 */
+  --letter-spacing-letter-spacing-h3: -0.4; /** 자간 h3 */
+  --letter-spacing-letter-spacing-d1: -0.4; /** 자간 d1 */
+  --number-0: 0; /** 기본 수치 0 */
+  --number-1: 1; /** 기본 수치 1 */
+  --number-2: 2; /** 기본 수치 2 */
+  --number-4: 4; /** 기본 수치 4 */
+  --number-6: 6; /** 기본 수치 6 */
+  --number-8: 8; /** 기본 수치 8 */
+  --number-10: 10; /** 기본 수치 10 */
+  --number-11: 11; /** 기본 수치 11 */
+  --number-12: 12; /** 기본 수치 12 */
+  --number-13: 13; /** 기본 수치 13 */
+  --number-14: 14; /** 기본 수치 14 */
+  --number-15: 15; /** 기본 수치 15 */
+  --number-16: 16; /** 기본 수치 16 */
+  --number-17: 17; /** 기본 수치 17 */
+  --number-18: 18; /** 기본 수치 18 */
+  --number-20: 20; /** 기본 수치 20 */
+  --number-22: 22; /** 기본 수치 22 */
+  --number-24: 24; /** 기본 수치 24 */
+  --number-26: 26; /** 기본 수치 26 */
+  --number-28: 28; /** 기본 수치 28 */
+  --number-30: 30; /** 기본 수치 30 */
+  --number-32: 32; /** 기본 수치 32 */
+  --number-34: 34; /** 기본 수치 34 */
+  --number-36: 36; /** 기본 수치 36 */
+  --number-38: 38; /** 기본 수치 38 */
+  --number-40: 40; /** 기본 수치 40 */
+  --number-42: 42; /** 기본 수치 42 */
+  --number-44: 44; /** 기본 수치 44 */
+  --number-48: 48; /** 기본 수치 48 */
+  --number-56: 56; /** 기본 수치 56 */
+  --number-64: 64; /** 기본 수치 64 */
+  --number-72: 72; /** 기본 수치 72 */
+  --number-80: 80; /** 기본 수치 80 */
+  --number-96: 96; /** 기본 수치 96 */
+  --number-max: 999; /** 기본 수치 max */
+  --opacity-0: 0; /** 불투명도 0% */
+  --opacity-4: 4; /** 불투명도 4% */
+  --opacity-8: 8; /** 불투명도 8% */
+  --opacity-12: 12; /** 불투명도 12% */
+  --opacity-16: 16; /** 불투명도 16% */
+  --opacity-22: 22; /** 불투명도 22% */
+  --opacity-28: 28; /** 불투명도 28% */
+  --opacity-35: 35; /** 불투명도 35% */
+  --opacity-43: 43; /** 불투명도 43% */
+  --opacity-52: 52; /** 불투명도 52% */
+  --opacity-61: 61; /** 불투명도 61% */
+  --opacity-74: 74; /** 불투명도 74% */
+  --opacity-88: 88; /** 불투명도 88% */
+  --opacity-97: 97; /** 불투명도 97% */
+  --opacity-100: 100; /** 불투명도 100% */
+}

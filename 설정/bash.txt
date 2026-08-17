@@ -1,0 +1,8 @@
+# 1. 의존성 설치
+npm install
+
+# 2. 기본 토큰 빌드 (CSS/SCSS/Swift/Kotlin)
+npm run build
+
+# 3. 멀티모드 토큰 빌드 (device, border-radius)
+node build-device-tokens.js

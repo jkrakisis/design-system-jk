@@ -1,0 +1,169 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+[data-device='mobile'] {
+  --font-weight-font-weight-900: 900; /** 폰트 굵기 900 (Black) */
+  --font-weight-font-weight-800: 800; /** 폰트 굵기 800 (ExtraBold) */
+  --font-weight-font-weight-400: 400; /** 폰트 굵기 400 (Regular) */
+  --font-weight-font-weight-700: 700; /** 폰트 굵기 700 (Bold) */
+  --font-weight-font-weight-600: 600; /** 폰트 굵기 600 (SemiBold) */
+  --font-weight-font-weight-500: 500; /** 폰트 굵기 500 (Medium) */
+  --font-weight-font-weight-300: 300; /** 폰트 굵기 300 (Light) */
+  --line-height-line-height-36: 36; /** 라인 높이 36px */
+  --line-height-line-height-34: 34; /** 라인 높이 34px */
+  --line-height-line-height-32: 32; /** 라인 높이 32px */
+  --line-height-line-height-30: 30; /** 라인 높이 30px */
+  --line-height-line-height-22: 22; /** 라인 높이 22px */
+  --line-height-line-height-26: 26; /** 라인 높이 26px */
+  --line-height-line-height-28: 28; /** 라인 높이 28px */
+  --line-height-line-height-64: 64; /** 라인 높이 64px */
+  --line-height-line-height-24: 24; /** 라인 높이 24px */
+  --line-height-line-height-48: 48; /** 라인 높이 48px */
+  --line-height-line-height-56: 56; /** 라인 높이 56px */
+  --line-height-line-height-18: 18; /** 라인 높이 18px */
+  --line-height-line-height-38: 38; /** 라인 높이 38px */
+  --line-height-line-height-44: 44; /** 라인 높이 44px */
+  --line-height-line-height-20: 20; /** 라인 높이 20px */
+  --line-height-line-height-40: 40; /** 라인 높이 40px */
+  --line-height-line-height-42: 42; /** 라인 높이 42px */
+  --line-height-line-height-16: 16; /** 라인 높이 16px */
+  --letter-spacing-0: 0; /** 자간 letter-spacing/0 */
+  --letter-spacing-1: 1; /** 자간 letter-spacing/1 */
+  --letter-spacing-3: -0.8; /** 자간 letter-spacing/3 */
+  --letter-spacing-letter-spacing-t3: -0.4; /** 자간 t3 */
+  --letter-spacing-letter-spacing-t1: -0.4; /** 자간 t1 */
+  --letter-spacing-letter-spacing-h4: -0.4; /** 자간 h4 */
+  --letter-spacing-letter-spacing-l0: 0; /** 자간 l0 */
+  --letter-spacing-letter-spacing-b1: -0.5; /** 자간 b1 */
+  --letter-spacing-letter-spacing-h1: -0.4; /** 자간 h1 */
+  --letter-spacing-letter-spacing-t2: -0.4; /** 자간 t2 */
+  --letter-spacing-letter-spacing-b3: -0.5; /** 자간 b3 */
+  --letter-spacing-letter-spacing-t4: -0.4; /** 자간 t4 */
+  --letter-spacing-letter-spacing-h2: -0.4; /** 자간 h2 */
+  --letter-spacing-letter-spacing-d2: -0.4; /** 자간 d2 */
+  --letter-spacing-letter-spacing-c1: 0; /** 자간 c1 */
+  --letter-spacing-letter-spacing-b2: -0.5; /** 자간 b2 */
+  --letter-spacing-letter-spacing-d3: -0.4; /** 자간 d3 */
+  --letter-spacing-letter-spacing-h3: -0.4; /** 자간 h3 */
+  --letter-spacing-letter-spacing-d1: -0.4; /** 자간 d1 */
+  --number-0: 0; /** 기본 수치 0 */
+  --number-1: 1; /** 기본 수치 1 */
+  --number-2: 2; /** 기본 수치 2 */
+  --number-4: 4; /** 기본 수치 4 */
+  --number-6: 6; /** 기본 수치 6 */
+  --number-8: 8; /** 기본 수치 8 */
+  --number-10: 10; /** 기본 수치 10 */
+  --number-11: 11; /** 기본 수치 11 */
+  --number-12: 12; /** 기본 수치 12 */
+  --number-13: 13; /** 기본 수치 13 */
+  --number-14: 14; /** 기본 수치 14 */
+  --number-15: 15; /** 기본 수치 15 */
+  --number-16: 16; /** 기본 수치 16 */
+  --number-17: 17; /** 기본 수치 17 */
+  --number-18: 18; /** 기본 수치 18 */
+  --number-20: 20; /** 기본 수치 20 */
+  --number-22: 22; /** 기본 수치 22 */
+  --number-24: 24; /** 기본 수치 24 */
+  --number-26: 26; /** 기본 수치 26 */
+  --number-28: 28; /** 기본 수치 28 */
+  --number-30: 30; /** 기본 수치 30 */
+  --number-32: 32; /** 기본 수치 32 */
+  --number-34: 34; /** 기본 수치 34 */
+  --number-36: 36; /** 기본 수치 36 */
+  --number-38: 38; /** 기본 수치 38 */
+  --number-40: 40; /** 기본 수치 40 */
+  --number-42: 42; /** 기본 수치 42 */
+  --number-44: 44; /** 기본 수치 44 */
+  --number-48: 48; /** 기본 수치 48 */
+  --number-56: 56; /** 기본 수치 56 */
+  --number-64: 64; /** 기본 수치 64 */
+  --number-72: 72; /** 기본 수치 72 */
+  --number-80: 80; /** 기본 수치 80 */
+  --number-96: 96; /** 기본 수치 96 */
+  --number-max: 999; /** 기본 수치 max */
+  --opacity-0: 0; /** 불투명도 0% */
+  --opacity-4: 4; /** 불투명도 4% */
+  --opacity-8: 8; /** 불투명도 8% */
+  --opacity-12: 12; /** 불투명도 12% */
+  --opacity-16: 16; /** 불투명도 16% */
+  --opacity-22: 22; /** 불투명도 22% */
+  --opacity-28: 28; /** 불투명도 28% */
+  --opacity-35: 35; /** 불투명도 35% */
+  --opacity-43: 43; /** 불투명도 43% */
+  --opacity-52: 52; /** 불투명도 52% */
+  --opacity-61: 61; /** 불투명도 61% */
+  --opacity-74: 74; /** 불투명도 74% */
+  --opacity-88: 88; /** 불투명도 88% */
+  --opacity-97: 97; /** 불투명도 97% */
+  --opacity-100: 100; /** 불투명도 100% */
+  --border-radius-100: 2; /** 모서리 반경 100 */
+  --border-radius-200: 4; /** 모서리 반경 200 */
+  --border-radius-300: 6; /** 모서리 반경 300 */
+  --border-radius-350: 8; /** 모서리 반경 350 */
+  --border-radius-400: 10; /** 모서리 반경 400 */
+  --border-radius-500: 10; /** 모서리 반경 500 */
+  --border-radius-600: 12; /** 모서리 반경 600 */
+  --border-radius-700: 16; /** 모서리 반경 700 */
+  --border-radius-800: 20; /** 모서리 반경 800 */
+  --border-radius-900: 24; /** 최대 모서리 반경 (원형) */
+  --border-radius-000: 0; /** 모서리 없음 (0) */
+  --border-radius-050: 1; /** 모서리 반경 50 */
+  --border-radius-border-basic-none: 0; /** 모서리 없음 (0) */
+  --border-radius-border-basic: 6; /** 기본 모서리 반경 */
+  --resolution-width: 375; /** 화면 너비 (px) */
+  --resolution-height: 812; /** 화면 높이 (px) */
+  --resolution-padding-h: 20;
+  --resolution-padding-v: 18;
+  --resolution-layout-gap: 16;
+  --spacing-spacing-lg-64: 48; /** 대형 간격 (lg-64) */
+  --spacing-spacing-md-40: 28; /** 중형 간격 (md-40) */
+  --spacing-spacing-md-32: 20; /** 중형 간격 (md-32) */
+  --spacing-spacing-lg-80: 64; /** 대형 간격 (lg-80) */
+  --spacing-spacing-lg-56: 40; /** 대형 간격 (lg-56) */
+  --spacing-spacing-md-24: 18; /** 중형 간격 (md-24) */
+  --spacing-spacing-sm-16: 12; /** 소형 간격 (sm-16) */
+  --spacing-spacing-sm-12: 10; /** 소형 간격 (sm-12) */
+  --spacing-spacing-sm-8: 6; /** 소형 간격 (sm-8) */
+  --spacing-spacing-sm-4: 2; /** 소형 간격 (sm-4) */
+  --spacing-spacing-lg-48: 32; /** 대형 간격 (lg-48) */
+  --spacing-spacing-sm-2: 1; /** 소형 간격 (sm-2) */
+  --spacing-spacing-0: 0; /** 간격 (spacing-0) */
+  --spacing-spacing-md-20: 16; /** 중형 간격 (md-20) */
+  --spacing-spacing-lg-72: 56; /** 대형 간격 (lg-72) */
+  --spacing-spacing-sm-1: 1; /** 소형 간격 (sm-1) */
+  --spacing-spacing-sm-10: 8; /** 소형 간격 (sm-10) */
+  --spacing-spacing-lg-100: 72; /** 대형 간격 (lg-100) */
+  --spacing-spacing-lg-120: 80; /** 대형 간격 (lg-120) */
+  --spacing-spacing-md-36: 24; /** 중형 간격 (md-36) */
+  --spacing-spacing-sm-18: 14; /** 소형 간격 (sm-18) */
+  --spacing-spacing-sm-6: 4; /** 소형 간격 (sm-6) */
+  --font-size-heading4: 16; /** 헤딩 4단계 폰트 크기 */
+  --font-size-heading3: 17; /** 헤딩 3단계 폰트 크기 */
+  --font-size-heading2: 18; /** 헤딩 2단계 폰트 크기 */
+  --font-size-heading1: 20; /** 헤딩 1단계 폰트 크기 */
+  --font-size-title2: 28; /** 타이틀 2단계 폰트 크기 */
+  --font-size-title1: 32; /** 타이틀 1단계 폰트 크기 */
+  --font-size-caption1: 10;
+  --font-size-display1: 42; /** 디스플레이 1단계 폰트 크기 */
+  --font-size-title3: 24;
+  --font-size-body2: 14; /** 본문 2단계 폰트 크기 */
+  --font-size-label1: 12; /** 레이블 1단계 폰트 크기 */
+  --font-size-body1: 15; /** 본문 1단계 폰트 크기 */
+  --font-size-caption2: 8;
+  --font-size-label2: 11; /** 레이블 2단계 폰트 크기 */
+  --font-size-display2: 36; /** 디스플레이 2단계 폰트 크기 */
+  --font-size-body3: 13; /** 본문 3단계 폰트 크기 */
+  --font-size-title4: 22;
+  --font-size-display3: 34; /** 디스플레이 3단계 폰트 크기 */
+  --font-size-caption3: 6;
+  --button-size56: 48; /** 버튼 높이 56px */
+  --button-size48: 40; /** 버튼 높이 48px */
+  --button-size40: 36; /** 버튼 높이 40px */
+  --button-size32: 28; /** 버튼 높이 32px */
+  --button-size24: 20;
+  --padding-card-large: 16; /** 카드 패딩 L */
+  --padding-card-medium: 12; /** 카드 패딩 M */
+  --padding-card-small: 8; /** 카드 패딩 S */
+  --padding-card-xlarge: 18; /** 카드 패딩 XL */
+}

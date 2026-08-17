@@ -1,0 +1,154 @@
+{
+  "source": [
+    "../primitive-float.tokens.json",
+    "../primitive-color-light.tokens.json",
+    "../primitive-color-high-contrast.tokens.json",
+    "../mode.light.tokens.json",
+    "../mode.dark.tokens.json"
+  ],
+  "platforms": {
+    "web/css": {
+      "transformGroup": "css",
+      "buildPath": "../build/web/",
+      "files": [
+        {
+          "destination": "primitive-variables.css",
+          "format": "css/variables",
+          "filter": {
+            "filePath": "../primitive-float.tokens.json"
+          },
+          "options": {
+            "selector": ":root"
+          }
+        },
+        {
+          "destination": "color-light.css",
+          "format": "css/variables",
+          "filter": {
+            "filePath": "../primitive-color-light.tokens.json"
+          },
+          "options": {
+            "selector": ":root, [data-theme='light']"
+          }
+        },
+        {
+          "destination": "color-high-contrast.css",
+          "format": "css/variables",
+          "filter": {
+            "filePath": "../primitive-color-high-contrast.tokens.json"
+          },
+          "options": {
+            "selector": "[data-theme='high-contrast']"
+          }
+        },
+        {
+          "destination": "semantic-light.css",
+          "format": "css/variables",
+          "filter": {
+            "filePath": "../mode.light.tokens.json"
+          },
+          "options": {
+            "selector": ":root, [data-theme='light']"
+          }
+        },
+        {
+          "destination": "semantic-dark.css",
+          "format": "css/variables",
+          "filter": {
+            "filePath": "../mode.dark.tokens.json"
+          },
+          "options": {
+            "selector": "[data-theme='dark']"
+          }
+        }
+      ]
+    },
+    "web/scss": {
+      "transformGroup": "scss",
+      "buildPath": "../build/web/",
+      "files": [
+        {
+          "destination": "_primitive-variables.scss",
+          "format": "scss/variables"
+        },
+        {
+          "destination": "_semantic-light.scss",
+          "format": "scss/variables",
+          "filter": {
+          "filePath": "../mode.light.tokens.json"
+          }
+        },
+        {
+          "destination": "_semantic-dark.scss",
+          "format": "scss/variables",
+          "filter": {
+          "filePath": "../mode.dark.tokens.json"
+          }
+        }
+      ]
+    },
+    "ios/swift": {
+      "transformGroup": "ios-swift",
+      "buildPath": "../build/ios/",
+      "files": [
+        {
+          "destination": "DesignTokens.swift",
+          "format": "ios-swift/enum.swift",
+          "className": "DesignTokens",
+          "filter": {
+            "filePath": "../primitive-float.tokens.json"
+          }
+        },
+        {
+          "destination": "ColorTokensLight.swift",
+          "format": "ios-swift/enum.swift",
+          "className": "ColorTokensLight",
+          "filter": {
+            "filePath": "../mode.light.tokens.json"
+          }
+        },
+        {
+          "destination": "ColorTokensDark.swift",
+          "format": "ios-swift/enum.swift",
+          "className": "ColorTokensDark",
+          "filter": {
+            "filePath": "../mode.dark.tokens.json"
+          }
+        }
+      ]
+    },
+    "android/compose": {
+      "transformGroup": "compose",
+      "buildPath": "../build/android/",
+      "files": [
+        {
+          "destination": "DesignTokens.kt",
+          "format": "compose/object",
+          "className": "DesignTokens",
+          "packageName": "com.app.designsystem.tokens",
+          "filter": {
+            "filePath": "../primitive-float.tokens.json"
+          }
+        },
+        {
+          "destination": "ColorTokensLight.kt",
+          "format": "compose/object",
+          "className": "ColorTokensLight",
+          "packageName": "com.app.designsystem.tokens",
+          "filter": {
+            "filePath": "../mode.light.tokens.json"
+          }
+        },
+        {
+          "destination": "ColorTokensDark.kt",
+          "format": "compose/object",
+          "className": "ColorTokensDark",
+          "packageName": "com.app.designsystem.tokens",
+          "filter": {
+            "filePath": "../mode.dark.tokens.json"
+          }
+        }
+      ]
+    }
+  }
+}

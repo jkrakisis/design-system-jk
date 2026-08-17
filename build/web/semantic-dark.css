@@ -1,0 +1,211 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+[data-theme='dark'] {
+  --color-gray-gray-1: #f8f8f8; /** gray — gray-1 */
+  --color-gray-gray-2: #f0f0f0; /** gray — gray-2 */
+  --color-gray-gray-3: #e4e4e4; /** gray — gray-3 */
+  --color-gray-gray-4: #d9d9d9; /** gray — gray-4 */
+  --color-gray-gray-5: #a3a3a3; /** gray — gray-5 */
+  --color-gray-gray-6: #8e8e8e; /** gray — gray-6 */
+  --color-gray-gray-7: #717171; /** gray — gray-7 */
+  --color-gray-gray-8: #555555; /** gray — gray-8 */
+  --color-gray-gray-10: #151515; /** gray — gray-10 */
+  --color-gray-white: #000000; /** gray — white */
+  --color-gray-black: #ffffff; /** gray — black */
+  --color-gray-gray-9: #333333; /** gray — gray-9 */
+  --color-line-line-color02: #848485; /** line — line-color02 */
+  --color-line-line-color06: #666666; /** line — line-color06 */
+  --color-line-line-color07: #2c3033; /** line — line-color07 */
+  --color-line-line-color01: #4a4a4a; /** line — line-color01 */
+  --color-line-line-color03: #565656; /** line — line-color03 */
+  --color-line-line-color04: #878787; /** line — line-color04 */
+  --color-line-line-color05: #45484b; /** line — line-color05 */
+  --color-key-primary: #256ef4; /** 키 컬러 — primary */
+  --color-key-accent01: #d65c66; /** 키 컬러 — accent01 */
+  --color-key-secondary: #063a74; /** 키 컬러 — secondary */
+  --color-key-sub-color01: #aeacac; /** 키 컬러 — sub-color01 */
+  --color-key-sub-color02: #eaedf0; /** 키 컬러 — sub-color02 */
+  --color-key-accent02: #4c87f6; /** 키 컬러 — accent02 */
+  --color-background-bg-color01: #474747; /** 배경색 — bg-color01 */
+  --color-background-bg-color02: #666666; /** 배경색 — bg-color02 */
+  --color-background-bg-color03: #1e2124; /** 배경색 — bg-color03 */
+  --color-background-bg-color04: #39506c; /** 배경색 — bg-color04 */
+  --color-background-bg-color05: #223a58; /** 배경색 — bg-color05 */
+  --color-background-bg-color06: #2c3033; /** 배경색 — bg-color06 */
+  --color-background-bg-color07: #1e2124; /** 배경색 — bg-color07 */
+  --color-background-bg-color08: #293547; /** 배경색 — bg-color08 */
+  --color-background-dim: rgba(0, 0, 0, 0.75); /** 배경색 — dim */
+  --color-background-inverse: #e6e8ea; /** 배경색 — inverse */
+  --color-background-gray-subtle: #1e2124; /** 배경색 — gray-subtle */
+  --color-background-gray-subtler: #131416; /** 배경색 — gray-subtler */
+  --color-background-bg-color09: #eef2f7; /** 배경색 — bg-color09 */
+  --color-button-primary-fill: #000000; /** button — primary-fill */
+  --color-button-primary-fill-hover: #ffffff; /** button — primary-fill-hover */
+  --color-button-primary-fill-pressed: #ffffff; /** button — primary-fill-pressed */
+  --color-button-secondary-fill: #ffffff; /** button — secondary-fill */
+  --color-button-secondary-fill-hover: #000000; /** button — secondary-fill-hover */
+  --color-button-secondary-fill-pressed: #000000; /** button — secondary-fill-pressed */
+  --color-button-tertiary-fill: #256ef4; /** button — tertiary-fill */
+  --color-button-tertiary-fill-hover: #1e2124; /** button — tertiary-fill-hover */
+  --color-button-tertiary-fill-pressed: #1e2124; /** button — tertiary-fill-pressed */
+  --color-button-gray-fill: #666666; /** button — gray-fill */
+  --color-button-gray-fill-hover: #333333; /** button — gray-fill-hover */
+  --color-button-gray-fill-pressed: #333333; /** button — gray-fill-pressed */
+  --color-button-primary-fill-border: #a3a3a3; /** button — primary-fill-border */
+  --color-button-secondary-fill-border: #848485; /** button — secondary-fill-border */
+  --color-button-tertiary-fill-border: #86aff9; /** button — tertiary-fill-border */
+  --color-button-four-fill: #020f27; /** button — four-fill */
+  --color-button-four-fill-hover: #020f27; /** button — four-fill-hover */
+  --color-button-four-fill-pressed: #020f27; /** button — four-fill-pressed */
+  --color-button-four-fill-border: #256ef4; /** button — four-fill-border */
+  --color-button-disible-fill: #8e8e8e; /** button — disible-fill */
+  --color-button-text-fill: #ffffff; /** button — text-fill */
+  --color-button-text-fill-hover: #b1cefb; /** button — text-fill-hover */
+  --color-button-text-fill-pressed: #031f3f; /** button — text-fill-pressed */
+  --color-button-disabled-border: #464c53; /** button — disabled-border */
+  --color-button-text-fill-white: #ffffff; /** button — text-fill-white */
+  --color-button-tertiary-fill-text: #ecf2fe; /** button — tertiary-fill-text */
+  --color-button-secondary-fill-text: #333333; /** button — secondary-fill-text */
+  --color-button-primary-fill-text: #f8f8f8; /** button — primary-fill-text */
+  --color-button-gray-fill-text: #f0f0f0; /** button — gray-fill-text */
+  --color-button-four-fill-text: #86aff9; /** button — four-fill-text */
+  --color-button-tertiary-fill-text-over: #b1cefb; /** button — tertiary-fill-text-over */
+  --color-button-primary-fill-text-over: #151515; /** button — primary-fill-text-over */
+  --color-button-disible-fill-text: #f8f8f8; /** button — disible-fill-text */
+  --color-button-secondary-fill-text-over: #f0f0f0; /** button — secondary-fill-text-over */
+  --color-button-gray-fill-text-over: #f8f8f8; /** button — gray-fill-text-over */
+  --color-surface-success-subtler: #0e2012; /** surface — success-subtler */
+  --color-surface-warning-subtler: #241800; /** surface — warning-subtler */
+  --color-surface-danger-subtler: #260903; /** surface — danger-subtler */
+  --color-surface-information-subtler: #021a2c; /** surface — information-subtler */
+  --color-surface-point-subtler: #21080a; /** surface — point-subtler */
+  --color-surface-primary-subtler: #020f27; /** surface — primary-subtler */
+  --color-surface-gray-subtle: #1e2124; /** surface — gray-subtle */
+  --color-surface-inverse-static: #33363d; /** disabled */
+  --color-surface-inverse: #e6e8ea; /** disabled */
+  --color-surface-white-static: #ffffff; /** disabled */
+  --color-surface-disabled: #464c53; /** disabled */
+  --color-surface-white-subtle: #131416; /** disabled */
+  --color-surface-white-subtler: #1e2124; /** disabled */
+  --color-surface-secondary-subtler: #02162c; /** surface — secondary-subtler */
+  --color-surface-gray-subtler: #131416; /** surface — gray-subtler */
+  --color-surface-white: #000000; /** disabled */
+  --color-text-inverse-static: #ffffff; /** 텍스트 색상 — inverse-static */
+  --color-text-basic-inverse: #1e2124; /** 텍스트 색상 — basic-inverse */
+  --color-text-bolder-inverse: #131416; /** 텍스트 색상 — bolder-inverse */
+  --color-text-disabled-on: #6d7882; /** active */
+  --color-text-subtle: #cdd1d5; /** 텍스트 색상 — subtle */
+  --color-text-disabled: #58616a; /** disabled */
+  --color-text-point: #ebadb2; /** 텍스트 색상 — point */
+  --color-text-information: #9ed2fa; /** 텍스트 색상 — information */
+  --color-text-subtle-inverse: #464c53; /** 텍스트 색상 — subtle-inverse */
+  --color-text-warning: #ffc95c; /** 텍스트 색상 — warning */
+  --color-text-danger: #f7afa1; /** 텍스트 색상 — danger */
+  --color-text-static: #1e2124; /** 텍스트 색상 — static */
+  --color-text-secondary: #bacbde; /** active/selected */
+  --color-text-basic: #f4f5f6; /** 텍스트 색상 — basic */
+  --color-text-bolder: #e6e8ea; /** 텍스트 색상 — bolder */
+  --color-text-primary: #b1cefb; /** active/selected */
+  --color-text-success: #a9dab4; /** 텍스트 색상 — success */
+  --color-input-border-disabled: #464c53; /** input — border-disabled */
+  --color-input-border: #8a949e; /** input — border */
+  --color-input-surface-disabled: #131416; /** input — surface-disabled */
+  --color-input-border-error: #de3412; /** input — border-error */
+  --color-input-border-active: #256ef4; /** active/selected */
+  --color-input-surface: #1e2124; /** input — surface */
+  --color-input-surface-dropdown: #33363d; /** input — surface-dropdown */
+  --color-icon-gray-fill: #464c53; /** 아이콘 색상 — gray-fill */
+  --color-icon-gray-light: #cdd1d5; /** 아이콘 색상 — gray-light */
+  --color-icon-gray: #a3a3a3; /** 아이콘 색상 — gray */
+  --color-icon-point: #ebadb2; /** 아이콘 색상 — point */
+  --color-icon-disabled: #58616a; /** 아이콘 색상 — disabled */
+  --color-icon-disabled-on: #6d7882; /** 아이콘 색상 — disabled-on */
+  --color-icon-inverse: #1e2124; /** 아이콘 색상 — inverse */
+  --color-icon-danger: #f7afa1; /** 아이콘 색상 — danger */
+  --color-icon-success-static: #228738; /** 아이콘 색상 — success-static */
+  --color-icon-danger-static: #de3412; /** 아이콘 색상 — danger-static */
+  --color-icon-inverse-static: #ffffff; /** 아이콘 색상 — inverse-static */
+  --color-icon-secondary-static: #052b57; /** active/selected */
+  --color-icon-information-static: #0b78cb; /** 아이콘 색상 — information-static */
+  --color-icon-primary-static: #256ef4; /** active/selected */
+  --color-icon-gray-static: #33363d; /** 아이콘 색상 — gray-static */
+  --color-icon-information: #9ed2fa; /** 아이콘 색상 — information */
+  --color-icon-point-static: #d63d4a; /** 아이콘 색상 — point-static */
+  --color-icon-success: #a9dab4; /** 아이콘 색상 — success */
+  --color-icon-warning-static: #9e6a00; /** 아이콘 색상 — warning-static */
+  --color-icon-warning: #ffc95c; /** 아이콘 색상 — warning */
+  --color-element-logo-text: #ffffff; /** element — logo-text */
+  --color-element-primary-light: #03163a; /** element — primary-light */
+  --color-element-primary: #256ef4; /** active/selected */
+  --color-element-point-lighter: #21080a; /** element — point-lighter */
+  --color-element-point-light: #310c0f; /** element — point-light */
+  --color-element-point: #d63d4a; /** element — point */
+  --color-element-secondary-light: #031f3f; /** element — secondary-light */
+  --color-element-secondary-lighter: #02162c; /** element — secondary-lighter */
+  --color-element-secondary: #1c589c; /** element — secondary */
+  --color-element-primary-lighter: #020f27; /** element — primary-lighter */
+  --color-border-transparency: rgba(255, 255, 255, 0.25); /** disabled */
+  --color-border-secondary-light: #031f3f; /** 보더 색상 — secondary-light */
+  --color-border-gray-dark: #8a949e; /** active */
+  --color-border-primary: #256ef4; /** active/selected */
+  --color-border-primary-light: #03163a; /** active/selected */
+  --color-border-gray: #464c53; /** disabled */
+  --color-border-gray-light: #33363d; /** 보더 색상 — gray-light */
+  --color-border-information-light: #03253f; /** 보더 색상 — information-light */
+  --color-border-danger: #de3412; /** 보더 색상 — danger */
+  --color-border-success-light: #122b18; /** 보더 색상 — success-light */
+  --color-border-warning-light: #2e1f00; /** 보더 색상 — warning-light */
+  --color-border-danger-light: #390d05; /** 보더 색상 — danger-light */
+  --color-border-inverse: #000000; /** disabled */
+  --color-border-success: #228738; /** 보더 색상 — success */
+  --color-border-point: #d63d4a; /** active/selected */
+  --color-border-gray-darker: #e6e8ea; /** active */
+  --color-border-point-light: #310c0f; /** active/selected */
+  --color-border-information: #0b78cb; /** 보더 색상 — information */
+  --color-border-disabled: #464c53; /** disabled */
+  --color-border-secondary: #1c589c; /** active/selected */
+  --color-border-warning: #9e6a00; /** 보더 색상 — warning */
+  --color-divider-gray-light: #33363d; /** divider — gray-light */
+  --color-divider-error: #de3412; /** divider — error */
+  --color-divider-inverse: #000000; /** divider — inverse */
+  --color-divider-gray-darker: #e6e8ea; /** active */
+  --color-divider-primary-light: #03163a; /** active/selected */
+  --color-divider-gray-dark: #6d7882; /** active */
+  --color-divider-secondary: #1c589c; /** active/selected */
+  --color-divider-point: #d63d4a; /** divider — point */
+  --color-divider-secondary-light: #031f3f; /** divider — secondary-light */
+  --color-divider-primary: #256ef4; /** active/selected */
+  --color-divider-gray: #464c53; /** disabled */
+  --color-link-visited: #b1cefb; /** link — visited */
+  --color-link-pressed: #d8e5fd; /** link — pressed */
+  --color-link-hover: #b1cefb; /** link — hover */
+  --color-link-default: #86aff9; /** link — default */
+  --color-graphic-red: #ebadb2; /** disabled */
+  --color-graphic-red-subtle: #f5d6d9; /** disabled */
+  --color-graphic-red-darker: #7a1f26; /** disabled */
+  --color-graphic-red-dark: #d65c66; /** disabled */
+  --color-graphic-blue-darker: #223a58; /** disabled */
+  --color-graphic-blue: #61758f; /** disabled */
+  --color-graphic-blue-dark: #39506c; /** disabled */
+  --color-graphic-blue-subtler: #e5ecf9; /** disabled */
+  --color-graphic-brand: #256ef4; /** disabled */
+  --color-graphic-red-subtler: #fbeff0; /** disabled */
+  --color-graphic-blue-subtle: #98acc5; /** disabled */
+  --color-alpha-inverse50: rgba(255, 255, 255, 0.5); /** 알파 색상 — inverse50 */
+  --color-alpha-inverse75: rgba(255, 255, 255, 0.75); /** 알파 색상 — inverse75 */
+  --color-alpha-inverse0: rgba(255, 255, 255, 0); /** 알파 색상 — inverse0 */
+  --color-alpha-shadow2: rgba(0, 0, 0, 0.12); /** 알파 색상 — shadow2 */
+  --color-alpha-inverse25: rgba(255, 255, 255, 0.25); /** 알파 색상 — inverse25 */
+  --color-alpha-inverse100: #ffffff; /** 알파 색상 — inverse100 */
+  --color-alpha-base25: rgba(0, 0, 0, 0.25); /** 알파 색상 — base25 */
+  --color-alpha-base75: rgba(0, 0, 0, 0.75); /** 알파 색상 — base75 */
+  --color-alpha-inverse10: rgba(0, 0, 0, 0.25); /** 알파 색상 — inverse10 */
+  --color-alpha-shadow1: rgba(0, 0, 0, 0.08); /** 알파 색상 — shadow1 */
+  --color-alpha-base0: rgba(0, 0, 0, 0); /** 알파 색상 — base0 */
+  --color-alpha-base10: rgba(0, 0, 0, 0.1); /** 알파 색상 — base10 */
+  --color-alpha-shadow3: rgba(0, 0, 0, 0.2); /** 알파 색상 — shadow3 */
+  --color-alpha-base50: rgba(0, 0, 0, 0.5); /** 알파 색상 — base50 */
+  --color-alpha-base100: #000000; /** 알파 색상 — base100 */
+}

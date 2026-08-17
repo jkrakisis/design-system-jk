@@ -1,0 +1,64 @@
+token/
+├── primitive-float.tokens.json           ← 내보낸 7개 JSON 파일
+├── primitive-color-light.tokens.json
+├── primitive-color-high-contrast.tokens.json
+├── mode.light.tokens.json
+├── mode.dark.tokens.json
+├── device.tokens.json
+├── border-radius.tokens.json
+├── build/                               ← 빌드 결과물 (자동생성)
+│   ├── web/
+│   │   ├── primitive-variables.css
+│   │   ├── color-light.css
+│   │   ├── color-high-contrast.css
+│   │   ├── semantic-light.css
+│   │   ├── semantic-dark.css
+│   │   ├── device-desktop.css
+│   │   ├── device-tablet.css
+│   │   ├── device-mobile.css
+│   │   └── border-radius-md.css
+│   ├── ios/
+│   │   ├── DesignTokens.swift
+│   │   ├── ColorTokensLight.swift
+│   │   └── ColorTokensDark.swift
+│   └── android/
+│       ├── DesignTokens.kt
+│       ├── ColorTokensLight.kt
+│       └── ColorTokensDark.kt
+└── 설정/
+    ├── build-device-tokens.js
+    ├── style-dictionary.config.json
+    └── package.json
+
+
+# 설정 폴더에서 실행
+cd 설정
+
+# 1. 의존성 설치
+npm install
+
+# 2. 전체 토큰 빌드 (CSS/SCSS/Swift/Kotlin/device/radius)
+npm run build
+
+# 개별 플랫폼 빌드
+npm run build:css
+npm run build:scss
+npm run build:ios
+npm run build:android
+
+
+/* semantic-light.css */
+:root, [data-theme='light'] {
+  --color-gray-10: var(--color-light-gray-blue-10);
+  --color-key-primary: var(--color-light-primary-60);
+  --color-background-primary: var(--color-light-gray-blue-00);
+  --color-text-primary: var(--color-light-gray-black-90);
+  /* ... 205개 시맨틱 변수 */
+}
+
+/* semantic-dark.css */
+[data-theme='dark'] {
+  --color-gray-10: var(--color-high-contrast-gray-blue-10);
+  --color-key-primary: var(--color-high-contrast-primary-60);
+  /* ... 205개 (다크모드 값으로 오버라이드) */
+}

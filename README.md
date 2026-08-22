@@ -128,7 +128,24 @@ node build-project.js <project-name>
 <input class="input-field-line is-error" type="text" value="오류">
 ```
 
-뱃지 컴포넌트는 아직 Figma 실제 스펙 반영 전입니다.
+**뱃지 — 상태(Status)** — success/warning/danger/information, pill 모양:
+
+```html
+<span class="badge badge-success">Success</span>
+<span class="badge badge-warning">Warning</span>
+<span class="badge badge-danger">Danger</span>
+<span class="badge badge-information">Information</span>
+```
+
+**태그 (badge-group)** — Figma "badge-group" 기준, primary/gray/outline 3색상 × lg(32)/md(24)/sm(20) 3사이즈, 각진 8px 라운드(`--border-radius-300`):
+
+```html
+<span class="tag tag-lg tag-primary">BADGE</span>
+<span class="tag tag-lg tag-gray">BADGE</span>
+<span class="tag tag-lg tag-outline">BADGE</span>
+```
+
+사이즈는 `tag-lg` / `tag-md` / `tag-sm` 중 하나를 색상 클래스와 함께 사용합니다.
 
 ## 운영 원칙
 

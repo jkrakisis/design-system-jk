@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ko" data-theme="light" data-device="desktop" data-radius="md">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design Token Showcase</title>
+<link rel="stylesheet" href="../build/web/primitive-variables.css">
+<link rel="stylesheet" href="../build/web/color-light.css">
+<link rel="stylesheet" href="../build/web/color-high-contrast.css">
+<link rel="stylesheet" href="../build/web/semantic-light.css">
+<link rel="stylesheet" href="../build/web/semantic-dark.css">
+<link rel="stylesheet" href="../build/web/device-desktop.css">
+<link rel="stylesheet" href="../build/web/border-radius-md.css">
+<link rel="stylesheet" href="showcase.css">
+</head>
+<body>
+  <header class="showcase-header">
+    <h1>Design Token Showcase</h1>
+    <button class="theme-toggle" id="theme-toggle" type="button">다크 모드</button>
+  </header>
+
+  <section class="showcase-section">
+    <h2>Key Colors</h2>
+    <div class="swatch-grid">
+      <div class="swatch"><div class="swatch-color" style="background: var(--color-key-primary)"></div><div class="swatch-label">primary<code>--color-key-primary</code></div></div>
+      <div class="swatch"><div class="swatch-color" style="background: var(--color-key-secondary)"></div><div class="swatch-label">secondary<code>--color-key-secondary</code></div></div>
+      <div class="swatch"><div class="swatch-color" style="background: var(--color-key-accent01)"></div><div class="swatch-label">accent01<code>--color-key-accent01</code></div></div>
+      <div class="swatch"><div class="swatch-color" style="background: var(--color-key-accent02)"></div><div class="swatch-label">accent02<code>--color-key-accent02</code></div></div>
+      <div class="swatch"><div class="swatch-color" style="background: var(--color-key-sub-color01)"></div><div class="swatch-label">sub-color01<code>--color-key-sub-color01</code></div></div>
+      <div class="swatch"><div class="swatch-color" style="background: var(--color-key-sub-color02)"></div><div class="swatch-label">sub-color02<code>--color-key-sub-color02</code></div></div>
+    </div>
+  </section>
+
+  <section class="showcase-section">
+    <h2>Semantic — Status</h2>
+    <div class="swatch-grid">
+      <div class="swatch"><div class="swatch-color" style="background: var(--color-text-success)"></div><div class="swatch-label">success<code>--color-text-success</code></div></div>
+      <div class="swatch"><div class="swatch-color" style="background: var(--color-text-warning)"></div><div class="swatch-label">warning<code>--color-text-warning</code></div></div>
+      <div class="swatch"><div class="swatch-color" style="background: var(--color-text-danger)"></div><div class="swatch-label">danger<code>--color-text-danger</code></div></div>
+      <div class="swatch"><div class="swatch-color" style="background: var(--color-text-information)"></div><div class="swatch-label">information<code>--color-text-information</code></div></div>
+    </div>
+  </section>
+
+  <section class="showcase-section">
+    <h2>Typography Scale (font-size)</h2>
+    <div class="type-scale-list">
+      <div class="type-scale-row"><span class="type-scale-label">Display1</span><span style="font-size: calc(var(--font-size-display1) * 1px); font-weight: var(--font-weight-font-weight-700);">디자인 토큰</span></div>
+      <div class="type-scale-row"><span class="type-scale-label">Title1</span><span style="font-size: calc(var(--font-size-title1) * 1px); font-weight: var(--font-weight-font-weight-700);">디자인 토큰</span></div>
+      <div class="type-scale-row"><span class="type-scale-label">Heading1</span><span style="font-size: calc(var(--font-size-heading1) * 1px); font-weight: var(--font-weight-font-weight-700);">디자인 토큰</span></div>
+      <div class="type-scale-row"><span class="type-scale-label">Body1</span><span style="font-size: calc(var(--font-size-body1) * 1px); font-weight: var(--font-weight-font-weight-400);">디자인 토큰</span></div>
+      <div class="type-scale-row"><span class="type-scale-label">Label1</span><span style="font-size: calc(var(--font-size-label1) * 1px); font-weight: var(--font-weight-font-weight-500);">디자인 토큰</span></div>
+      <div class="type-scale-row"><span class="type-scale-label">Caption1</span><span style="font-size: calc(var(--font-size-caption1) * 1px); font-weight: var(--font-weight-font-weight-400);">디자인 토큰</span></div>
+    </div>
+  </section>
+
+  <section class="showcase-section">
+    <h2>Spacing Scale</h2>
+    <div class="spacing-list">
+      <div class="spacing-row"><span class="spacing-label">sm-8</span><div class="spacing-bar" style="width: calc(var(--spacing-spacing-sm-8) * 1px);"></div></div>
+      <div class="spacing-row"><span class="spacing-label">sm-16</span><div class="spacing-bar" style="width: calc(var(--spacing-spacing-sm-16) * 1px);"></div></div>
+      <div class="spacing-row"><span class="spacing-label">md-24</span><div class="spacing-bar" style="width: calc(var(--spacing-spacing-md-24) * 1px);"></div></div>
+      <div class="spacing-row"><span class="spacing-label">md-40</span><div class="spacing-bar" style="width: calc(var(--spacing-spacing-md-40) * 1px);"></div></div>
+      <div class="spacing-row"><span class="spacing-label">lg-64</span><div class="spacing-bar" style="width: calc(var(--spacing-spacing-lg-64) * 1px);"></div></div>
+      <div class="spacing-row"><span class="spacing-label">lg-120</span><div class="spacing-bar" style="width: calc(var(--spacing-spacing-lg-120) * 1px);"></div></div>
+    </div>
+  </section>
+
+  <section class="showcase-section">
+    <h2>Border Radius</h2>
+    <div class="radius-grid">
+      <div class="radius-box" style="border-radius: calc(var(--border-radius-100) * 1px);">100</div>
+      <div class="radius-box" style="border-radius: calc(var(--border-radius-300) * 1px);">300</div>
+      <div class="radius-box" style="border-radius: calc(var(--border-radius-500) * 1px);">500</div>
+      <div class="radius-box" style="border-radius: calc(var(--border-radius-700) * 1px);">700</div>
+      <div class="radius-box" style="border-radius: calc(var(--border-radius-900) * 1px);">900</div>
+    </div>
+  </section>
+
+  <section class="showcase-section">
+    <h2>Buttons</h2>
+    <div class="component-row">
+      <button class="btn btn-middle btn-primary">Primary</button>
+      <button class="btn btn-middle btn-secondary">Secondary</button>
+      <button class="btn btn-middle btn-tertiary">Tertiary</button>
+      <button class="btn btn-middle btn-gray">Gray</button>
+      <button class="btn btn-middle btn-four">Four</button>
+    </div>
+    <div class="component-row">
+      <button class="btn btn-xsmall btn-tertiary">xsmall 32</button>
+      <button class="btn btn-small btn-tertiary">small 40</button>
+      <button class="btn btn-middle btn-tertiary">middle 48</button>
+      <button class="btn btn-large btn-tertiary">large 56</button>
+    </div>
+  </section>
+
+  <section class="showcase-section">
+    <h2>Badge</h2>
+    <div class="component-row">
+      <span class="badge badge-success">Success</span>
+      <span class="badge badge-warning">Warning</span>
+      <span class="badge badge-danger">Danger</span>
+      <span class="badge badge-information">Information</span>
+    </div>
+  </section>
+
+  <section class="showcase-section">
+    <h2>Input — Box</h2>
+    <div class="component-row">
+      <div class="input-group">
+        <input class="input-field" type="text" placeholder="내용을 입력해 주세요.">
+      </div>
+      <div class="input-group">
+        <input class="input-field" type="text" value="내용을 입력해 주세요." style="border-color: var(--color-input-border-active);">
+      </div>
+      <div class="input-group">
+        <input class="input-field is-error" type="text" value="오류">
+        <span class="input-error-message">메시지를 입력해 주세요</span>
+      </div>
+      <div class="input-group">
+        <input class="input-field" type="text" placeholder="내용을 입력해 주세요." disabled>
+      </div>
+    </div>
+  </section>
+
+  <section class="showcase-section">
+    <h2>Input — Line</h2>
+    <div class="component-row">
+      <div class="input-group">
+        <input class="input-field-line" type="text" placeholder="내용을 입력해 주세요.">
+      </div>
+      <div class="input-group">
+        <input class="input-field-line" type="text" value="내용을 입력해 주세요." style="border-bottom-color: var(--color-input-border-active);">
+      </div>
+      <div class="input-group">
+        <input class="input-field-line is-error" type="text" value="오류">
+        <span class="input-error-message">메시지를 입력해 주세요</span>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const toggleBtn = document.getElementById('theme-toggle');
+    toggleBtn.addEventListener('click', () => {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      document.documentElement.setAttribute('data-theme', isDark ? 'light' : 'dark');
+      toggleBtn.textContent = isDark ? '다크 모드' : '라이트 모드';
+    });
+  </script>
+</body>
+</html>

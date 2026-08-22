@@ -1,0 +1,22 @@
+<!doctype html>
+<html data-theme="light">
+<head>
+<meta charset="utf-8">
+<style>
+  :root {
+    --color-key-primary: #0b50d0;
+    --color-button-tertiary-fill: #0b50d0;
+    --color-button-tertiary-fill-text: #ffffff;
+  }
+  body { font-family: sans-serif; padding: 24px; }
+  .swatch { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+  .box { width: 48px; height: 48px; border-radius: 8px; border: 1px solid #ccc; }
+  .btn { padding: 10px 20px; border-radius: 8px; border: none; font-weight: bold; }
+</style>
+</head>
+<body>
+  <h2>base (build/web)</h2>
+  <div class="swatch"><div class="box" style="background: var(--color-key-primary)"></div><code>--color-key-primary</code></div>
+  <button class="btn" style="background: var(--color-button-tertiary-fill); color: var(--color-button-tertiary-fill-text);">tertiary-fill button</button>
+</body>
+</html>

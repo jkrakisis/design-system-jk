@@ -1,0 +1,11 @@
+{
+  "color": {
+    "key": {
+      "primary": {
+        "$type": "color",
+        "$value": "#ff5500",
+        "$description": "example 프로젝트 override — primary"
+      }
+    }
+  }
+}

@@ -8,6 +8,7 @@
     "build:scss": "node build-platforms.js scss",
     "build:ios": "node build-platforms.js ios",
     "build:android": "node build-platforms.js android",
+    "build:project": "node build-project.js",
     "clean": "rm -rf build/"
   },
   "devDependencies": {

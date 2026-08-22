@@ -65,6 +65,37 @@ build/
 
 디바이스별 토큰은 `data-device="desktop|tablet|mobile"`, radius 토큰은 `data-radius="md|none|sm"` 속성으로 선택합니다.
 
+## 프로젝트별 override 빌드
+
+프로젝트마다 디자인시스템이 조금씩 다를 때, base 토큰 전체를 복사하지 않고 바뀐 semantic 토큰만 관리합니다.
+
+```text
+projects/
+└── <project-name>/
+    └── override.tokens.json   ← base와 동일한 key 경로로, 바뀐 토큰만 작성 (W3C DTCG 포맷: $type/$value)
+```
+
+예시 (`projects/example/override.tokens.json`):
+
+```json
+{
+  "color": {
+    "key": {
+      "primary": { "$type": "color", "$value": "#ff5500" }
+    }
+  }
+}
+```
+
+빌드:
+
+```powershell
+cd 설정
+node build-project.js <project-name>
+```
+
+`build/<project-name>/`에 CSS가 생성되며, override에 없는 토큰은 base 값을 그대로 상속합니다. override한 토큰을 참조하는 다른 토큰(예: 버튼 컬러 등)도 자동으로 값이 따라갑니다. override 파일이 없으면 base와 동일하게 빌드됩니다.
+
 ## 운영 원칙
 
 - 원본 토큰은 JSON 파일에서 관리합니다.

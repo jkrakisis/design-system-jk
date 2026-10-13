@@ -370,6 +370,16 @@
       document.documentElement.setAttribute('data-theme', isDark ? 'light' : 'dark');
       toggleBtn.textContent = isDark ? '다크 모드' : '라이트 모드';
     });
+
+    const navLinks = [...document.querySelectorAll('.nav-link[href^="#"]')];
+    const sections = navLinks.map((link) => document.querySelector(link.getAttribute('href'))).filter(Boolean);
+    const setActive = (id) => navLinks.forEach((link) => link.classList.toggle('is-active', link.getAttribute('href') === '#' + id));
+    navLinks.forEach((link) => link.addEventListener('click', () => setActive(link.getAttribute('href').slice(1))));
+    const observer = new IntersectionObserver((entries) => {
+      const visible = entries.filter((entry) => entry.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+      if (visible) setActive(visible.target.id);
+    }, { rootMargin: '-15% 0px -70% 0px', threshold: [0, .25, .6] });
+    sections.forEach((section) => observer.observe(section));
   </script>
 </body>
 </html>

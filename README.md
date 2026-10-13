@@ -2,6 +2,9 @@
 
 Figma에서 추출한 디자인 토큰 저장소입니다. 웹 CSS/SCSS, iOS Swift, Android Compose 형식으로 빌드할 수 있습니다.
 
+👉 **[Design System UI Showcase 바로 보기](https://jkrakisis.github.io/design-system-jk/showcase/)**  
+Figma Variables 기반의 컬러, 타이포그래피, 버튼, 입력창, 뱃지, 태그와 반응형 UI를 브라우저에서 확인할 수 있습니다.
+
 ## 빌드
 
 ```powershell

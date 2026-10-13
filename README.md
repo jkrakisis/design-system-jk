@@ -46,6 +46,53 @@ build/
     └── ColorTokensDark.kt
 ```
 
+
+## UI 쇼케이스
+
+디자인 토큰과 주요 UI 컴포넌트를 브라우저에서 확인할 수 있습니다.
+
+- [Design System UI Showcase](https://jkrakisis.github.io/design-system-jk/showcase/)
+- [쇼케이스 소스 코드](./showcase/index.html)
+
+쇼케이스에서 확인할 수 있는 항목:
+
+- Light / Dark 테마 전환
+- Primitive 및 Semantic 컬러
+- Typography, Spacing, Border Radius
+- 버튼, 뱃지, 태그
+- Box / Line Input 상태
+- Notification, Checkbox, Radio, Tabs
+- Desktop / Mobile 반응형 레이아웃
+
+GitHub Pages 주소가 404로 표시되면 저장소의 Settings → Pages에서 다음과 같이 설정합니다.
+
+```text
+Source: Deploy from a branch
+Branch: main
+Folder: /(root)
+```
+
+설정 후 아래 주소로 접속합니다.
+
+```text
+https://jkrakisis.github.io/design-system-jk/showcase/
+```
+
+## Figma Variables → Token 흐름
+
+Figma Variables를 변경한 뒤 컬렉션의 모드에서 Export mode 또는 Export modes를 선택해 JSON으로 내보냅니다.
+
+```text
+Figma Variables
+→ Export modes
+→ token/*.tokens.json
+→ npm run build
+→ build/web · build/ios · build/android
+→ GitHub 반영
+```
+
+현재는 유료 플러그인 없이 Figma 기본 Export 기능을 사용하는 방식입니다. Figma Variables REST API를 이용한 완전 자동화는 Enterprise 플랜과 API 권한이 필요할 수 있으므로, 현재 프로젝트에서는 JSON Export 후 Style Dictionary 빌드 방식을 기본 흐름으로 사용합니다.
+
 ## 웹 연결 예시
 
 ```css

@@ -470,3 +470,23 @@ body { background: var(--color-background-bg-color01); }
   .nav-group-title, .sidebar-footer { display: none; }
   .nav-link { padding: .45rem .65rem; }
 }
+
+.library-meta { display: flex; flex-wrap: wrap; gap: .6rem; margin: 1rem 0 1.25rem; }
+.library-meta span { padding: .55rem .75rem; border: 1px solid var(--color-line-line-color01); border-radius: .45rem; background: var(--color-background-bg-color07); color: var(--color-text-subtle); font-size: .6875rem; }
+.library-meta strong { margin-right: .35rem; color: var(--color-text-basic); }
+.library-groups { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.library-group { padding: 1.125rem; border: 1px solid var(--color-line-line-color01); border-radius: calc(var(--border-radius-500) * 1px); background: var(--color-background-bg-color07); }
+.library-group-title { display: flex; align-items: center; gap: .65rem; padding-bottom: .9rem; border-bottom: 1px solid var(--color-line-line-color01); }
+.library-group-title h3 { margin: 0; font-size: .9375rem; }
+.library-group-title small { display: block; margin-top: .2rem; color: var(--color-text-subtle); font-size: .625rem; }
+.library-icon { display: grid; place-items: center; width: 2rem; height: 2rem; border-radius: .55rem; background: #e4edff; color: #0b50d0; font-size: .8rem; font-weight: 800; }
+.library-icon-green { background: #dff7eb; color: #14804a; }
+.library-icon-orange { background: #fff0dc; color: #b96400; }
+.library-items { display: grid; gap: .1rem; margin-top: .65rem; }
+.library-items > div { display: flex; flex-direction: column; gap: .2rem; padding: .55rem .4rem; border-radius: .35rem; }
+.library-items > div:hover { background: var(--color-background-bg-color01); }
+.library-items strong { color: var(--showcase-accent); font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .6875rem; }
+.library-items span { color: var(--color-text-subtle); font-size: .6875rem; line-height: 1.4; }
+@media (max-width: 1000px) {
+  .library-groups { grid-template-columns: 1fr; }
+}

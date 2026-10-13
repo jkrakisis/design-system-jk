@@ -36,6 +36,51 @@
     </div>
   </section>
 
+  <section class="showcase-section system-map">
+    <div class="section-heading">
+      <div><span class="eyebrow">SYSTEM MAP</span><h2>Design system structure</h2></div>
+      <span class="section-count">Source of truth</span>
+    </div>
+    <p class="section-lead">Figma Variables를 기준으로 원시 토큰을 조합하고, 의미 있는 Semantic Token과 재사용 가능한 UI 컴포넌트로 확장합니다.</p>
+    <div class="system-flow">
+      <div class="flow-step"><span class="flow-number">01</span><strong>Primitive</strong><small>Color · Float · Radius</small></div>
+      <span class="flow-arrow">→</span>
+      <div class="flow-step"><span class="flow-number">02</span><strong>Semantic</strong><small>Text · Surface · Border</small></div>
+      <span class="flow-arrow">→</span>
+      <div class="flow-step"><span class="flow-number">03</span><strong>Components</strong><small>Button · Input · Badge</small></div>
+      <span class="flow-arrow">→</span>
+      <div class="flow-step"><span class="flow-number">04</span><strong>Platforms</strong><small>Web · iOS · Android</small></div>
+    </div>
+  </section>
+
+  <section class="showcase-section">
+    <div class="section-heading">
+      <div><span class="eyebrow">FOUNDATIONS</span><h2>Token foundations</h2></div>
+      <span class="section-count">Primitive values</span>
+    </div>
+    <div class="foundation-grid">
+      <article class="foundation-card"><h3>Color</h3><p>브랜드와 상태를 표현하는 컬러 스케일</p><div class="mini-swatches"><i style="background:var(--color-key-primary)"></i><i style="background:var(--color-key-secondary)"></i><i style="background:var(--color-key-accent01)"></i><i style="background:var(--color-key-accent02)"></i></div><code>primitive-color-*.tokens.json</code></article>
+      <article class="foundation-card"><h3>Typography</h3><p>Display부터 Caption까지의 계층 구조</p><div class="type-preview"><strong>Heading / Body / Label</strong><span>가독성과 일관성을 위한 타입 스케일</span></div><code>primitive-float.tokens.json</code></article>
+      <article class="foundation-card"><h3>Spacing</h3><p>화면과 컴포넌트 사이의 일관된 간격</p><div class="mini-spacing"><i style="width:8px"></i><i style="width:16px"></i><i style="width:24px"></i><i style="width:40px"></i></div><code>device.tokens.json</code></article>
+      <article class="foundation-card"><h3>Radius</h3><p>컴포넌트의 모서리와 표면의 인상</p><div class="mini-radius"><i></i><i></i><i></i></div><code>border-radius.tokens.json</code></article>
+    </div>
+  </section>
+
+  <section class="showcase-section">
+    <div class="section-heading">
+      <div><span class="eyebrow">SEMANTIC TOKENS</span><h2>Meaningful roles</h2></div>
+      <span class="section-count">Light / Dark</span>
+    </div>
+    <p class="section-lead">컴포넌트는 원시 색상 대신 의미 기반 토큰을 사용합니다. 테마를 바꾸면 같은 컴포넌트가 자동으로 다른 값을 사용합니다.</p>
+    <div class="semantic-table">
+      <div class="semantic-row semantic-head"><span>Role</span><span>Usage</span><span>Light</span><span>Dark</span></div>
+      <div class="semantic-row"><strong>Text / Basic</strong><span>기본 본문 텍스트</span><i class="semantic-dot" style="background:var(--color-text-basic)"></i><i class="semantic-dot semantic-dark-dot"></i></div>
+      <div class="semantic-row"><strong>Surface / Primary</strong><span>주요 액션과 강조 영역</span><i class="semantic-dot" style="background:var(--color-surface-primary-default)"></i><i class="semantic-dot semantic-dark-dot"></i></div>
+      <div class="semantic-row"><strong>Text / Danger</strong><span>오류와 삭제 상태</span><i class="semantic-dot" style="background:var(--color-text-danger)"></i><i class="semantic-dot semantic-danger-dark"></i></div>
+      <div class="semantic-row"><strong>Border / Gray</strong><span>구분선과 입력 경계</span><i class="semantic-dot" style="background:var(--color-border-gray)"></i><i class="semantic-dot semantic-border-dark"></i></div>
+    </div>
+  </section>
+
   <section class="showcase-section">
     <div class="section-heading">
       <div><span class="eyebrow">FOUNDATIONS</span><h2>Component overview</h2></div>

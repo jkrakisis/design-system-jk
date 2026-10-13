@@ -18,8 +18,34 @@
     <h1>Design Token Showcase</h1>
     <button class="theme-toggle" id="theme-toggle" type="button">다크 모드</button>
   </header>
+  <div class="docs-shell">
+    <aside class="docs-sidebar">
+      <div class="sidebar-brand"><span class="brand-mark">DS</span><div><strong>Design System</strong><small>UI Kit / v1.0</small></div></div>
+      <nav class="docs-nav" aria-label="Design system navigation">
+        <span class="nav-group-title">INTRODUCTION</span>
+        <a href="#overview" class="nav-link is-active">Overview</a>
+        <a href="#architecture" class="nav-link">System architecture</a>
+        <span class="nav-group-title">FOUNDATIONS</span>
+        <a href="#foundations" class="nav-link">Token foundations</a>
+        <a href="#tokens" class="nav-link">Token anatomy</a>
+        <a href="#colors" class="nav-link">Color scale</a>
+        <a href="#typography" class="nav-link">Typography</a>
+        <a href="#layout" class="nav-link">Spacing & layout</a>
+        <a href="#semantic" class="nav-link">Semantic tokens</a>
+        <span class="nav-group-title">COMPONENTS</span>
+        <a href="#components" class="nav-link">Component overview</a>
+        <a href="#buttons" class="nav-link">Buttons</a>
+        <a href="#inputs" class="nav-link">Inputs</a>
+        <a href="#patterns" class="nav-link">Patterns & states</a>
+        <span class="nav-group-title">RESOURCES</span>
+        <a href="https://www.figma.com/design/NSGyIZuM5rVuvKjWQUV9g9/Project_design_0000?node-id=0-1&t=lekECiCC9Lu1t2p9-1&view=variables" target="_blank" rel="noreferrer">Figma Variables ↗</a>
+        <a href="https://github.com/jkrakisis/design-system-jk" target="_blank" rel="noreferrer">GitHub repository ↗</a>
+      </nav>
+      <div class="sidebar-footer"><span class="status-dot"></span><span>Tokens synced</span></div>
+    </aside>
+    <main class="docs-main">
 
-  <section class="showcase-hero">
+  <section id="overview" class="showcase-hero">
     <div>
       <span class="eyebrow">DESIGN SYSTEM / UI KIT</span>
       <h2>일관된 경험을 만드는<br><span class="hero-accent">Design System UI</span></h2>
@@ -36,7 +62,7 @@
     </div>
   </section>
 
-  <section class="showcase-section system-map">
+  <section id="architecture" class="showcase-section system-map">
     <div class="section-heading">
       <div><span class="eyebrow">SYSTEM MAP</span><h2>Design system structure</h2></div>
       <span class="section-count">Source of truth</span>
@@ -53,7 +79,7 @@
     </div>
   </section>
 
-  <section class="showcase-section">
+  <section id="foundations" class="showcase-section">
     <div class="section-heading">
       <div><span class="eyebrow">FOUNDATIONS</span><h2>Token foundations</h2></div>
       <span class="section-count">Primitive values</span>
@@ -66,7 +92,7 @@
     </div>
   </section>
 
-  <section class="showcase-section">
+  <section id="tokens" class="showcase-section">
     <div class="section-heading">
       <div><span class="eyebrow">TOKEN ANATOMY</span><h2>How tokens are organized</h2></div>
       <span class="section-count">Naming convention</span>
@@ -82,7 +108,7 @@
     </div>
   </section>
 
-  <section class="showcase-section">
+  <section id="colors" class="showcase-section">
     <div class="section-heading">
       <div><span class="eyebrow">COLOR SCALE</span><h2>Primary color ramp</h2></div>
       <span class="section-count">Primitive / Light</span>
@@ -101,7 +127,7 @@
     </div>
   </section>
 
-  <section class="showcase-section">
+  <section id="typography" class="showcase-section">
     <div class="section-heading">
       <div><span class="eyebrow">TYPE SCALE</span><h2>Typography specification</h2></div>
       <span class="section-count">Responsive ready</span>
@@ -117,7 +143,7 @@
     </div>
   </section>
 
-  <section class="showcase-section">
+  <section id="layout" class="showcase-section">
     <div class="section-heading">
       <div><span class="eyebrow">LAYOUT TOKENS</span><h2>Spacing & responsive modes</h2></div>
       <span class="section-count">Desktop / Tablet / Mobile</span>
@@ -141,7 +167,7 @@
     </div>
   </section>
 
-  <section class="showcase-section">
+  <section id="semantic" class="showcase-section">
     <div class="section-heading">
       <div><span class="eyebrow">SEMANTIC TOKENS</span><h2>Meaningful roles</h2></div>
       <span class="section-count">Light / Dark</span>
@@ -156,7 +182,7 @@
     </div>
   </section>
 
-  <section class="showcase-section">
+  <section id="components" class="showcase-section">
     <div class="section-heading">
       <div><span class="eyebrow">FOUNDATIONS</span><h2>Component overview</h2></div>
       <span class="section-count">06 components</span>
@@ -171,7 +197,7 @@
     </div>
   </section>
 
-  <section class="showcase-section">
+  <section id="patterns" class="showcase-section">
     <div class="section-heading">
       <div><span class="eyebrow">COMPONENTS</span><h2>Common UI patterns</h2></div>
       <span class="section-count">Interactive states</span>
@@ -253,7 +279,7 @@
     </div>
   </section>
 
-  <section class="showcase-section">
+  <section id="buttons" class="showcase-section">
     <h2>Buttons</h2>
     <div class="component-row">
       <button class="btn btn-middle btn-primary">Primary</button>
@@ -299,7 +325,7 @@
     </div>
   </section>
 
-  <section class="showcase-section">
+  <section id="inputs" class="showcase-section">
     <h2>Input — Box</h2>
     <div class="component-row">
       <div class="input-group">
@@ -333,6 +359,9 @@
       </div>
     </div>
   </section>
+
+    </main>
+  </div>
 
   <script>
     const toggleBtn = document.getElementById('theme-toggle');

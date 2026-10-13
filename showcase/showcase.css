@@ -334,3 +334,9 @@ body {
   .section-heading { align-items: flex-start; flex-direction: column; }
   .showcase-header { padding: 1rem 1.25rem; }
 }
+
+.hero-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.5rem; }
+.hero-link { display: inline-flex; align-items: center; gap: .4rem; min-height: 2.5rem; padding: 0 .9rem; border-radius: 999px; font-size: .8125rem; font-weight: 700; text-decoration: none; transition: transform .2s ease, box-shadow .2s ease; }
+.hero-link:hover { transform: translateY(-1px); box-shadow: var(--showcase-shadow); }
+.hero-link-primary { background: var(--showcase-accent); color: #fff; }
+.hero-link-secondary { border: 1px solid var(--color-line-line-color01); background: var(--color-background-bg-color01); color: var(--color-text-basic); }

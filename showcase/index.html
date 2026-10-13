@@ -68,6 +68,81 @@
 
   <section class="showcase-section">
     <div class="section-heading">
+      <div><span class="eyebrow">TOKEN ANATOMY</span><h2>How tokens are organized</h2></div>
+      <span class="section-count">Naming convention</span>
+    </div>
+    <div class="token-anatomy">
+      <div class="anatomy-path"><span class="path-primitive">color</span><b>/</b><span class="path-group">primary</span><b>/</b><span class="path-scale">60</span></div>
+      <div class="anatomy-legend"><span><i class="legend-dot dot-blue"></i><strong>Category</strong><small>color, spacing, font</small></span><span><i class="legend-dot dot-purple"></i><strong>Group</strong><small>primary, text, surface</small></span><span><i class="legend-dot dot-orange"></i><strong>Scale</strong><small>50, 60, 100, 200</small></span></div>
+    </div>
+    <div class="token-rules">
+      <div><strong>Primitive</strong><span>실제 값과 스케일을 정의합니다.</span><code>color.light.primary.60</code></div>
+      <div><strong>Semantic</strong><span>사용 목적과 역할을 정의합니다.</span><code>color.text.primary</code></div>
+      <div><strong>Component</strong><span>UI 상태에 토큰을 연결합니다.</span><code>color.button.primary.fill</code></div>
+    </div>
+  </section>
+
+  <section class="showcase-section">
+    <div class="section-heading">
+      <div><span class="eyebrow">COLOR SCALE</span><h2>Primary color ramp</h2></div>
+      <span class="section-count">Primitive / Light</span>
+    </div>
+    <div class="color-ramp">
+      <div><span style="background:#eef4ff"></span><small>10</small><code>#eef4ff</code></div>
+      <div><span style="background:#dce8ff"></span><small>20</small><code>#dce8ff</code></div>
+      <div><span style="background:#b9d0ff"></span><small>30</small><code>#b9d0ff</code></div>
+      <div><span style="background:#82adff"></span><small>40</small><code>#82adff</code></div>
+      <div><span style="background:#4d86f5"></span><small>50</small><code>#4d86f5</code></div>
+      <div class="ramp-active"><span style="background:#0b50d0"></span><small>60</small><code>#0b50d0</code></div>
+      <div><span style="background:#073b9d"></span><small>70</small><code>#073b9d</code></div>
+      <div><span style="background:#052d78"></span><small>80</small><code>#052d78</code></div>
+      <div><span style="background:#031f52"></span><small>90</small><code>#031f52</code></div>
+      <div><span style="background:#02132f"></span><small>100</small><code>#02132f</code></div>
+    </div>
+  </section>
+
+  <section class="showcase-section">
+    <div class="section-heading">
+      <div><span class="eyebrow">TYPE SCALE</span><h2>Typography specification</h2></div>
+      <span class="section-count">Responsive ready</span>
+    </div>
+    <div class="spec-table">
+      <div class="spec-row spec-head"><span>Token</span><span>Preview</span><span>Size</span><span>Usage</span></div>
+      <div class="spec-row"><code>display1</code><strong class="type-display">Design system</strong><span>48px</span><small>Hero headline</small></div>
+      <div class="spec-row"><code>title1</code><strong class="type-title">Design system</strong><span>32px</span><small>Page title</small></div>
+      <div class="spec-row"><code>heading1</code><strong class="type-heading">Design system</strong><span>24px</span><small>Section heading</small></div>
+      <div class="spec-row"><code>body1</code><span class="type-body">Design tokens create consistent experiences.</span><span>16px</span><small>Body copy</small></div>
+      <div class="spec-row"><code>label1</code><span class="type-label">DESIGN SYSTEM / UI KIT</span><span>14px</span><small>Labels and controls</small></div>
+      <div class="spec-row"><code>caption1</code><span class="type-caption">Helper text and metadata</span><span>12px</span><small>Supporting text</small></div>
+    </div>
+  </section>
+
+  <section class="showcase-section">
+    <div class="section-heading">
+      <div><span class="eyebrow">LAYOUT TOKENS</span><h2>Spacing & responsive modes</h2></div>
+      <span class="section-count">Desktop / Tablet / Mobile</span>
+    </div>
+    <div class="layout-detail-grid">
+      <div class="detail-panel"><h3>Spacing scale</h3><div class="scale-line"><code>sm-8</code><i style="width:8px"></i><span>8px</span></div><div class="scale-line"><code>sm-16</code><i style="width:16px"></i><span>16px</span></div><div class="scale-line"><code>md-24</code><i style="width:24px"></i><span>24px</span></div><div class="scale-line"><code>md-40</code><i style="width:40px"></i><span>40px</span></div><div class="scale-line"><code>lg-64</code><i style="width:64px"></i><span>64px</span></div></div>
+      <div class="detail-panel"><h3>Device modes</h3><div class="device-row"><span class="device-icon">▱</span><div><strong>Desktop</strong><small>1440px · roomy layout</small></div><code>device.desktop</code></div><div class="device-row"><span class="device-icon">▯</span><div><strong>Tablet</strong><small>768px · adaptive layout</small></div><code>device.tablet</code></div><div class="device-row"><span class="device-icon">▯</span><div><strong>Mobile</strong><small>390px · compact layout</small></div><code>device.mobile</code></div></div>
+    </div>
+  </section>
+
+  <section class="showcase-section">
+    <div class="section-heading">
+      <div><span class="eyebrow">STATE MATRIX</span><h2>Component states</h2></div>
+      <span class="section-count">Interaction rules</span>
+    </div>
+    <div class="state-matrix">
+      <div class="state-row state-head"><span>Component</span><span>Default</span><span>Hover</span><span>Focus</span><span>Disabled</span><span>Error</span></div>
+      <div class="state-row"><strong>Button</strong><i class="state-chip state-default">Primary</i><i class="state-chip state-hover">Hover</i><i class="state-chip state-focus">Focus</i><i class="state-chip state-disabled">Disabled</i><i class="state-chip state-error">—</i></div>
+      <div class="state-row"><strong>Input</strong><i class="state-chip state-default">Empty</i><i class="state-chip state-hover">Hover</i><i class="state-chip state-focus">Active</i><i class="state-chip state-disabled">Disabled</i><i class="state-chip state-error">Error</i></div>
+      <div class="state-row"><strong>Badge</strong><i class="state-chip state-default">Status</i><i class="state-chip state-hover">—</i><i class="state-chip state-focus">—</i><i class="state-chip state-disabled">—</i><i class="state-chip state-error">Danger</i></div>
+    </div>
+  </section>
+
+  <section class="showcase-section">
+    <div class="section-heading">
       <div><span class="eyebrow">SEMANTIC TOKENS</span><h2>Meaningful roles</h2></div>
       <span class="section-count">Light / Dark</span>
     </div>

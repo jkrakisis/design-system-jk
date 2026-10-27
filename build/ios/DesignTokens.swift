@@ -9,6 +9,9 @@
 import UIKit
 
 public enum DesignTokens {
+    public static let fontFamilyFontFamily01 = "Pretendard GOV" /** 기본 폰트 Pretendard GOV */
+    public static let fontFamilyFontFamily02 = "Paperlogy" /** 디스플레이 폰트 Paperlogy */
+    public static let fontFamilyFontFamily03 = "Montserrat" /** 영문 보조 폰트 Montserrat */
     public static let fontWeightBold = "Bold" /** 폰트 스타일명 Bold */
     public static let fontWeightFontWeight300 = 300 /** 폰트 굵기 300 (Light) */
     public static let fontWeightFontWeight400 = 400 /** 폰트 굵기 400 (Regular) */

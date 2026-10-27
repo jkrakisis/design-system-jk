@@ -7,8 +7,11 @@ async function build() {
   StyleDictionary.registerTransform({
     name: 'string/quote',
     type: 'value',
-    filter: (token) => (token.$type ?? token.type) === 'string',
-    transform: (token) => JSON.stringify(token.$value ?? token.value),
+    filter: (token) => ['string', 'fontFamily'].includes(token.$type ?? token.type),
+    transform: (token) => {
+      const value = token.$value ?? token.value;
+      return /^['"]/.test(value) ? value : JSON.stringify(value);
+    },
   });
   for (const group of ['scss', 'ios-swift', 'compose']) {
     // 그룹 이름을 바꾸면 swift 포맷의 import(UIKit)가 달라지므로 같은 이름으로 덮어쓴다

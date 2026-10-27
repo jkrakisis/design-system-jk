@@ -10,6 +10,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.*
 
 object DesignTokens {
+  val fontFamilyFontFamily01 = "Pretendard GOV"
+  val fontFamilyFontFamily02 = "Paperlogy"
+  val fontFamilyFontFamily03 = "Montserrat"
   val fontWeightBold = "Bold"
   val fontWeightFontWeight300 = 300
   val fontWeightFontWeight400 = 400

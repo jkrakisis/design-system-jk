@@ -3,6 +3,9 @@
  */
 
 [data-radius='sm'] {
+  --font-family-font-family-01: 'Pretendard GOV'; /** 기본 폰트 Pretendard GOV */
+  --font-family-font-family-02: Paperlogy; /** 디스플레이 폰트 Paperlogy */
+  --font-family-font-family-03: Montserrat; /** 영문 보조 폰트 Montserrat */
   --font-weight-font-weight-900: 900; /** 폰트 굵기 900 (Black) */
   --font-weight-font-weight-800: 800; /** 폰트 굵기 800 (ExtraBold) */
   --font-weight-font-weight-400: 400; /** 폰트 굵기 400 (Regular) */

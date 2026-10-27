@@ -9,6 +9,7 @@
 import UIKit
 
 public enum DesignTokens {
+    public static let fontWeightBold = "Bold" /** 폰트 스타일명 Bold */
     public static let fontWeightFontWeight300 = 300 /** 폰트 굵기 300 (Light) */
     public static let fontWeightFontWeight400 = 400 /** 폰트 굵기 400 (Regular) */
     public static let fontWeightFontWeight500 = 500 /** 폰트 굵기 500 (Medium) */
@@ -16,6 +17,7 @@ public enum DesignTokens {
     public static let fontWeightFontWeight700 = 700 /** 폰트 굵기 700 (Bold) */
     public static let fontWeightFontWeight800 = 800 /** 폰트 굵기 800 (ExtraBold) */
     public static let fontWeightFontWeight900 = 900 /** 폰트 굵기 900 (Black) */
+    public static let fontWeightRegular = "Regular" /** 폰트 스타일명 Regular */
     public static let letterSpacing0 = 0 /** 자간 letter-spacing/0 */
     public static let letterSpacing1 = 1 /** 자간 letter-spacing/1 */
     public static let letterSpacing3 = -0.8 /** 자간 letter-spacing/3 */
@@ -53,6 +55,7 @@ public enum DesignTokens {
     public static let lineHeightLineHeight48 = 48 /** 라인 높이 48px */
     public static let lineHeightLineHeight56 = 56 /** 라인 높이 56px */
     public static let lineHeightLineHeight64 = 64 /** 라인 높이 64px */
+    public static let lineHeightLineHeight80 = 80 /** 라인 높이 80px */
     public static let number0 = 0 /** 기본 수치 0 */
     public static let number1 = 1 /** 기본 수치 1 */
     public static let number10 = 10 /** 기본 수치 10 */

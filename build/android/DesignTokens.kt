@@ -10,6 +10,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.*
 
 object DesignTokens {
+  val fontWeightBold = "Bold"
   val fontWeightFontWeight300 = 300
   val fontWeightFontWeight400 = 400
   val fontWeightFontWeight500 = 500
@@ -17,6 +18,7 @@ object DesignTokens {
   val fontWeightFontWeight700 = 700
   val fontWeightFontWeight800 = 800
   val fontWeightFontWeight900 = 900
+  val fontWeightRegular = "Regular"
   val letterSpacing0 = 0
   val letterSpacing1 = 1
   val letterSpacing3 = -0.8
@@ -54,6 +56,7 @@ object DesignTokens {
   val lineHeightLineHeight48 = 48
   val lineHeightLineHeight56 = 56
   val lineHeightLineHeight64 = 64
+  val lineHeightLineHeight80 = 80
   val number0 = 0
   val number1 = 1
   val number10 = 10

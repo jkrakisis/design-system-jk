@@ -10,6 +10,8 @@
   --font-weight-font-weight-600: 600; /** 폰트 굵기 600 (SemiBold) */
   --font-weight-font-weight-500: 500; /** 폰트 굵기 500 (Medium) */
   --font-weight-font-weight-300: 300; /** 폰트 굵기 300 (Light) */
+  --font-weight-regular: Regular; /** 폰트 스타일명 Regular */
+  --font-weight-bold: Bold; /** 폰트 스타일명 Bold */
   --line-height-line-height-36: 36; /** 라인 높이 36px */
   --line-height-line-height-34: 34; /** 라인 높이 34px */
   --line-height-line-height-32: 32; /** 라인 높이 32px */
@@ -28,6 +30,7 @@
   --line-height-line-height-40: 40; /** 라인 높이 40px */
   --line-height-line-height-42: 42; /** 라인 높이 42px */
   --line-height-line-height-16: 16; /** 라인 높이 16px */
+  --line-height-line-height-80: 80; /** 라인 높이 80px */
   --letter-spacing-0: 0; /** 자간 letter-spacing/0 */
   --letter-spacing-1: 1; /** 자간 letter-spacing/1 */
   --letter-spacing-3: -0.8; /** 자간 letter-spacing/3 */

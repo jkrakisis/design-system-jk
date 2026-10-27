@@ -2,6 +2,22 @@ const path = require('path');
 
 async function build() {
   const { default: StyleDictionary } = await import('style-dictionary');
+
+  // 문자열 토큰(font-weight/regular 등)은 따옴표가 없으면 Swift/Kotlin/SCSS에서 유효하지 않은 값이 된다
+  StyleDictionary.registerTransform({
+    name: 'string/quote',
+    type: 'value',
+    filter: (token) => (token.$type ?? token.type) === 'string',
+    transform: (token) => JSON.stringify(token.$value ?? token.value),
+  });
+  for (const group of ['scss', 'ios-swift', 'compose']) {
+    // 그룹 이름을 바꾸면 swift 포맷의 import(UIKit)가 달라지므로 같은 이름으로 덮어쓴다
+    StyleDictionary.registerTransformGroup({
+      name: group,
+      transforms: [...StyleDictionary.hooks.transformGroups[group], 'string/quote'],
+    });
+  }
+
   const root = path.resolve(__dirname, '..');
   const primitiveFloat = path.join(root, 'primitive-float.tokens.json');
   const primitiveLight = path.join(root, 'primitive-color-light.tokens.json');

@@ -115,6 +115,34 @@ Figma Variables
 
 디바이스별 토큰은 `data-device="desktop|tablet|mobile"`, radius 토큰은 `data-radius="md|none|sm"` 속성으로 선택합니다.
 
+## Primitive 토큰
+
+`primitive-float.tokens.json`은 폰트·수치 계열 primitive를 담고 있으며, Figma의 `primitive` 컬렉션과 그룹 구성이 같습니다.
+
+| 그룹 | 개수 | 내용 |
+|---|---|---|
+| `font-family` | 3 | `font-family-01` Pretendard GOV(기본) / `-02` Paperlogy(디스플레이) / `-03` Montserrat(영문 보조) |
+| `font-weight` | 9 | `font-weight-300`~`900`(숫자 7개), `regular`·`bold`(스타일명 문자열 2개) |
+| `line-height` | 19 | `line-height-16`~`80` (`number` 그룹 참조) |
+| `letter-spacing` | 19 | 자간 (`t1`~`t4`, `h1`~`h4`, `b1`~`b3`, `l0`, `c1` 등) |
+| `number` | 35 | 기본 수치 0~96, `max`(999) |
+| `opacity` | 15 | 불투명도 0~100 (퍼센트 값) |
+
+변수명은 `--{그룹}-{토큰명}` 형태라 그룹명이 한 번 더 붙습니다. Figma의 `--font-family-01`은 로컬에서 `--font-family-font-family-01`입니다.
+
+| 플랫폼 | 예시 |
+|---|---|
+| CSS | `--line-height-line-height-80` |
+| SCSS | `$line-height-line-height-80` |
+| Swift | `DesignTokens.lineHeightLineHeight80` |
+| Kotlin | `DesignTokens.lineHeightLineHeight80` |
+
+사용할 때 알아둘 점:
+
+- 숫자 토큰은 단위가 없습니다. CSS에서는 `calc(var(--line-height-line-height-80) * 1px)`처럼 단위를 붙여 사용합니다.
+- 문자열 토큰(`font-family`, `regular`, `bold`)은 `build-platforms.js`의 `string/quote` 변환으로 SCSS·Swift·Kotlin에서 따옴표가 붙은 문자열로 출력됩니다. 따옴표가 없으면 Swift/Kotlin 컴파일이 깨지므로, 문자열 타입 변수를 추가할 때도 이 변환이 적용되는지 빌드 결과를 확인합니다.
+- `primitive-float.tokens.json`은 Figma Export로 덮어써지므로 직접 수정한 내용은 다음 Export 때 사라집니다. 값 보정이 필요하면 JSON이 아니라 빌드 스크립트에 둡니다.
+
 ## 프로젝트별 override 빌드
 
 프로젝트마다 디자인시스템이 조금씩 다를 때, base 토큰 전체를 복사하지 않고 바뀐 semantic 토큰만 관리합니다.
